@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}#{{ tag }} - {{ SITENAME }}{% endblock %}
+{% block content %}
+<header class="page-header">
+	<h1>#{{ tag }}</h1>
+</header>
+{% set article_list = articles %}
+{% include "article_list.html" with context %}
+{% endblock %}

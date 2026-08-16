@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Auteurs - {{ SITENAME }}{% endblock %}
+{% block content %}
+<header class="page-header">
+	<h1>Auteurs</h1>
+</header>
+<section>
+	<ul>
+		{% for author, null in authors %}
+		<li><a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a></li>
+		{% endfor %}
+	</ul>
+</section>
+{% endblock %}

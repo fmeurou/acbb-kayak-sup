@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{# Homepage template, selected via `Template: home` in content/pages/accueil.md.
+   Unlike page.html it doesn't inject an auto <h1>{{ page.title }}</h1> -
+   the homepage's own first section supplies its own heading, matching
+   the original site (which explicitly hides the page title on the
+   homepage: body class `qode-title-hidden`), and uses a taller hero. #}
+
+{% block title %}{{ SITENAME }}{% if SITESUBTITLE %} &mdash; {{ SITESUBTITLE }}{% endif %}{% endblock %}
+
+{% block hero %}
+<div class="hero" style="height:480px;background-image:url('{{ page.image if page.image else SITEURL + '/theme/images/hero-default-bg.jpg' }}');"></div>
+{% endblock %}
+
+{% block content %}
+{{ page.content }}
+
+{# "Paroles d'adhérents": real Pelican articles, not authored Markdown
+   content - can't be pulled from content/pages/accueil.md itself, so it
+   renders here, appended after the Markdown content, only once articles
+   actually exist. #}
+{% if articles %}
+<section class="wide">
+	<h2>Paroles d'adhérents</h2>
+	<p>Venise, Amsterdam, Guadeloupe, calanques de Marseille et bien d'autres...</p>
+	{% set article_list = articles[:3] %}
+	{% include "article_list.html" with context %}
+	<a href="{{ SITEURL }}/blog/" class="qbutton large center default">TOUS LES ARTICLES</a>
+</section>
+{% endif %}
+{% endblock %}

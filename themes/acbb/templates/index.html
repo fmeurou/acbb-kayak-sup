@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block title %}{{ SITENAME }}{% if SITESUBTITLE %} &mdash; {{ SITESUBTITLE }}{% endif %}{% endblock %}
+
+{% block content %}
+<header class="page-header">
+	<h1>Blog</h1>
+</header>
+
+<div class="blog-layout">
+	<div class="blog-main">
+		{% if articles_page %}
+			{% set article_list = articles_page.object_list %}
+		{% else %}
+			{% set article_list = dates %}
+		{% endif %}
+		{% include "article_list.html" with context %}
+		{% include "pagination.html" %}
+	</div>
+
+	{% if dates %}
+	<aside class="blog-sidebar">
+		{% set recent = dates|selectattr("date", "ge", recent_articles_since)|list %}
+		{% if recent %}
+		<section>
+			<h2>Articles récents</h2>
+			<ul>
+				{% for article in recent %}
+				<li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></li>
+				{% endfor %}
+			</ul>
+		</section>
+		{% endif %}
+
+		<section>
+			<h2>Archives</h2>
+			{% for group in dates|archive_groups %}
+			<h3><a href="{{ SITEURL }}/blog/{{ group.year }}/">{{ group.year }}</a></h3>
+			<ul>
+				{% for m in group.months %}
+				<li><a href="{{ SITEURL }}/blog/{{ group.year }}/{{ "%02d"|format(m.num) }}/">{{ m.name|capitalize }} ({{ m.count }})</a></li>
+				{% endfor %}
+			</ul>
+			{% endfor %}
+		</section>
+	</aside>
+	{% endif %}
+</div>
+{% endblock %}

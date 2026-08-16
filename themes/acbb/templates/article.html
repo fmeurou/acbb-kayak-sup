@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}{{ article.title|striptags }} - {{ SITENAME }}{% endblock %}
+
+{% block hero %}
+<div class="hero" style="height:320px;background-image:url('{{ article.image if article.image else SITEURL + '/theme/images/hero-default-bg.jpg' }}');"></div>
+{% endblock %}
+
+{% block content %}
+<article class="entry-content">
+	<header class="page-header">
+		<h1>{{ article.title }}</h1>
+		<p class="article-meta">
+			{{ article.locale_date }}
+			{% if article.author %} &mdash; {{ article.author }}{% endif %}
+			{% if article.category %} &mdash; <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>{% endif %}
+		</p>
+	</header>
+
+	{{ article.content }}
+
+	{% if article.tags %}
+	<section class="article-tags">
+		{% for tag in article.tags %}
+		<a href="{{ SITEURL }}/{{ tag.url }}" class="qbutton small">{{ tag }}</a>
+		{% endfor %}
+	</section>
+	{% endif %}
+</article>
+{% endblock %}

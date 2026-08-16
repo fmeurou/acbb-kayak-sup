@@ -1,0 +1,917 @@
+/* Site-specific styles on top of the Bridge theme CSS bundle (reset,
+   typography, colors, .qbutton, print styles). The header/footer/nav
+   chrome and the whole content-area layout system below are this site's
+   own — WPBakery's div-grid classes (vc_row/wpb_column/vc_col-sm-N) and
+   the jQuery-driven header/menu behavior from the original WordPress
+   export were fully replaced with semantic HTML5 + plain CSS/vanilla JS
+   (see theme.js). Everything past the "Layout" section here targets
+   this site's own class names, not Bridge's. */
+
+/* The original site's Google Fonts request loads both Raleway and Roboto,
+   but Roboto is what's actually applied sitewide (body, headings, nav) -
+   Raleway appears to be an unused theme-default leftover. Match Roboto. */
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+/* A bullet/numbered list inside a centered section (text-align:center is
+   the default - see "Content sections" below) staggers each <li> at a
+   different centered offset instead of lining up the markers, which
+   always reads as broken regardless of context - unlike prose, there's
+   no legitimate case for a centered list. A direct rule on the list
+   itself beats the inherited center value from its ancestor section
+   without needing to fight that rule's specificity (see the FAQ/pricing
+   overrides below for the pattern that's needed when overriding the
+   section's own alignment, as opposed to overriding an inherited one). */
+ul,
+ol {
+	text-align: left;
+}
+
+/* ============================================================
+   Layout: page shell, width container
+   ============================================================ */
+
+.wrap {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+/* ============================================================
+   Header / nav
+   ============================================================ */
+
+.site-header {
+	position: sticky;
+	top: 0;
+	z-index: 100;
+	background: #fff;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .15);
+}
+.site-header-inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 10px 40px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.site-logo {
+	display: block;
+	line-height: 0;
+}
+.site-logo img {
+	display: block;
+	height: 60px;
+	width: auto;
+}
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
+}
+
+.nav-toggle {
+	display: none;
+	align-items: center;
+	justify-content: center;
+	border: 0;
+	background: none;
+	font-size: 22px;
+	color: #1b3a57;
+	cursor: pointer;
+	padding: 8px;
+}
+
+.site-nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 10px 30px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.site-nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: #333;
+	font-weight: 600;
+	letter-spacing: .5px;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+.site-nav li.current a {
+	color: #ef7f01;
+}
+
+/* "Les activités" submenu (the 6 individual activity pages - hidden from
+   the main nav via Status: hidden in their own .md files, listed here
+   instead so the top-level menu doesn't balloon to 12 items). Desktop:
+   hover/focus dropdown. Mobile: see the max-width:1000px block below,
+   where hover isn't reliable so it's just always-expanded inline. */
+.site-nav li {
+	position: relative;
+}
+.site-nav .submenu {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	min-width: 240px;
+	margin: 0;
+	padding: 8px 0;
+	list-style: none;
+	background: #fff;
+	border-radius: 4px;
+	box-shadow: 0 4px 16px rgba(0, 0, 0, .15);
+	z-index: 50;
+}
+.site-nav li:hover .submenu,
+.site-nav li:focus-within .submenu {
+	display: block;
+}
+.site-nav .submenu a {
+	display: block;
+	padding: 8px 18px;
+	text-transform: none;
+	font-weight: 400;
+	letter-spacing: normal;
+	white-space: nowrap;
+}
+.site-nav .submenu a:hover {
+	background: #f6f6f6;
+}
+
+@media (max-width: 1000px) {
+	.nav-toggle {
+		display: inline-flex;
+	}
+	.site-nav {
+		display: none;
+		flex-basis: 100%;
+		order: 3;
+	}
+	.site-nav.is-open {
+		display: block;
+	}
+	.site-nav ul {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 15px;
+		padding: 20px 0;
+	}
+	.site-nav .submenu {
+		display: block;
+		position: static;
+		box-shadow: none;
+		padding: 10px 0 0 15px;
+		margin-top: 10px;
+		border-left: 2px solid #ededed;
+	}
+	.site-nav .submenu li + li {
+		margin-top: 10px;
+	}
+}
+
+/* ============================================================
+   Hero banner
+   ============================================================ */
+
+.hero {
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+}
+
+/* ============================================================
+   Page/article title
+   ============================================================ */
+
+.page-header {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 40px 20px 0;
+}
+.page-header h1 {
+	/* The original site hand-types page headings in full caps in the page
+	   body, independent of the actual (mixed-case) WP post title used for
+	   <title>/breadcrumbs - CSS-only so page.title/<title> stay normally
+	   cased. */
+	text-transform: uppercase;
+	margin: 0;
+	/* Bridge's actual default h1 weight (600, per bridge-stylesheet.css)
+	   gets knocked down to ~500 by the WP-Customizer-generated
+	   bridge-style-dynamic.css - the original site compensates by hand-
+	   wrapping every heading in <strong>, which page.title can't do since
+	   it's plain text. Force the same visual weight here instead. */
+	font-weight: 700;
+}
+:is(h1, h2, h3, h4, h5, h6) + :is(h1, h2, h3, h4, h5, h6) {
+	margin-top: 0;
+}
+
+/* ============================================================
+   Content sections: default centered "reading column" behavior for
+   any top-level <section>/<article> inside the main content area, with
+   a `.split`/`.split-narrow` modifier for two-column rows. This is what
+   replaces the old vc_row/wpb_column WPBakery grid entirely - only 3
+   column proportions were ever actually used across the site's content
+   (single column, even 6/6, and 4/8 narrow-image/wide-text), which
+   `.split`/`.split-narrow` cover.
+   ============================================================ */
+
+.site-main > :is(section, article),
+.entry-content > :is(section, article) {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 40px 20px;
+	text-align: center;
+}
+
+/* On the original site every page hand-authors its own h1+h2(+h3) title
+   stack as one directly-adjacent block (no gap beyond the heading's own
+   line-height) before any body padding starts - our auto-injected
+   .page-header sits in a separate element from the content's own first
+   heading, so without this the two would double up their padding into a
+   large gap that doesn't exist on the original. Specificity note: this
+   must come after (or otherwise out-specify) the base rule above, which
+   sets the same padding-top at equal specificity (.page-header + :is(...)
+   and .site-main > :is(...) are both one-class-plus-one-type) - later
+   source position is what makes this win. */
+.page-header + :is(section, article) {
+	padding-top: 0;
+}
+
+.site-main > :is(section, article).split,
+.site-main > :is(section, article).split-narrow,
+.entry-content > :is(section, article).split,
+.entry-content > :is(section, article).split-narrow {
+	max-width: 1200px;
+	text-align: left;
+	display: grid;
+	align-items: center;
+	grid-template-columns: 1fr 1fr;
+	gap: 40px;
+}
+.site-main > :is(section, article).split-narrow,
+.entry-content > :is(section, article).split-narrow {
+	grid-template-columns: 1fr 2fr;
+}
+@media (max-width: 767px) {
+	.split,
+	.split-narrow {
+		grid-template-columns: 1fr !important;
+	}
+}
+
+/* A centered heading/intro with a full-width grid below it (e.g. the
+   homepage's article-teaser section) - wider than the 900px reading
+   column but, unlike .split, not a two-column row. */
+.site-main > :is(section, article).wide,
+.entry-content > :is(section, article).wide {
+	max-width: 1200px;
+}
+
+/* A page's opening title block (h1 from .page-header + this section's own
+   h2/h3/intro paragraph) is left-aligned on the original site, unlike the
+   centered marketing sections further down the page - only when the block
+   has no centered CTA button in it (see e.g. pourquoi-choisir-acbb.md's
+   intro, matched 1:1 against the live site's markup). */
+.site-main > :is(section, article).left,
+.entry-content > :is(section, article).left {
+	text-align: left;
+}
+
+/* Sections whose content is inherently left-aligned prose/data (FAQ,
+   pricing) rather than centered marketing copy. Selectors repeat the
+   parent-context prefix (rather than just `.faq`/`.pricing`) to match the
+   base rule's specificity - see the .wpb-content-wrapper heading fix
+   earlier in this project's history for the same pitfall: a bare
+   `.faq {text-align:left}` (0,1,0) loses to `.site-main > :is(section,
+   article)` (0,1,1) regardless of source order. */
+.site-main > :is(section, article).faq,
+.site-main > :is(section, article).pricing,
+.entry-content > :is(section, article).faq,
+.entry-content > :is(section, article).pricing {
+	text-align: left;
+}
+
+/* Dark CTA band (e.g. "Rejoignez l'ACBB CK-SUP"): the row itself stays
+   full-bleed for the background color, while each direct child is
+   individually centered to the same 900px reading column as a normal
+   section - reproducing the original "full-width row, narrow column"
+   look without a nested wrapper div. */
+.cta-dark {
+	max-width: none !important;
+	background-color: #1b3a57;
+}
+.cta-dark > * {
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.cta-dark h1,
+.cta-dark h2,
+.cta-dark h3,
+.cta-dark p {
+	color: #fff;
+}
+
+/* Repeated activity/service card (image + heading + text + button). */
+.activity-card img {
+	width: 100%;
+	height: auto;
+	display: block;
+	border-radius: 4px;
+}
+.activity-card h3 {
+	margin-top: 0;
+}
+
+/* Homepage "TOUTES LES ACTIVITÉS" list: each activity is one full-width
+   clickable photo, title overlaid on it, and the description shown as a
+   hint revealed on hover/focus rather than always-on body text - the
+   photo (and knowing where the link goes) carries the section, the text
+   is a nice-to-have on the way to clicking through. */
+.activity-features {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.activity-feature {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	border-radius: 4px;
+	text-decoration: none;
+	color: #fff;
+}
+.activity-feature img {
+	width: 100%;
+	height: 420px;
+	object-fit: cover;
+	display: block;
+	transition: transform .4s ease;
+}
+.activity-feature:hover img,
+.activity-feature:focus-visible img {
+	transform: scale(1.04);
+}
+.activity-feature-caption {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 25px 30px;
+	background: linear-gradient(to top, rgba(0, 0, 0, .75), rgba(0, 0, 0, 0) 75%);
+}
+.activity-feature-caption strong {
+	display: block;
+	font-size: 22px;
+	text-transform: uppercase;
+	letter-spacing: .5px;
+}
+.activity-feature-hint {
+	display: block;
+	max-height: 0;
+	opacity: 0;
+	overflow: hidden;
+	margin-top: 0;
+	font-size: 15px;
+	color: #eee;
+	transition: max-height .3s ease, opacity .3s ease, margin-top .3s ease;
+}
+.activity-feature:hover .activity-feature-hint,
+.activity-feature:focus-visible .activity-feature-hint {
+	max-height: 80px;
+	opacity: 1;
+	margin-top: 8px;
+}
+@media (max-width: 600px) {
+	.activity-feature img {
+		height: 260px;
+	}
+	/* Hover has no reliable touch equivalent - show the hint outright
+	   on small screens instead of hiding it behind an interaction most
+	   visitors here won't trigger before tapping through. */
+	.activity-feature-hint {
+		max-height: 80px;
+		opacity: 1;
+		margin-top: 8px;
+	}
+}
+
+/* Image + caption pairing used throughout for single photos. */
+figure {
+	margin: 0;
+}
+figure img {
+	width: 100%;
+	height: auto;
+	display: block;
+	border-radius: 4px;
+}
+figcaption {
+	margin-top: 10px;
+	font-size: 14px;
+	color: #666;
+}
+
+.qbutton {
+	display: inline-block;
+	margin: 0 10px 10px 0;
+}
+
+/* ============================================================
+   FAQ (<section class="faq"> of <details>/<summary>)
+   ============================================================ */
+
+.faq details {
+	border-bottom: 1px solid #ededed;
+	padding: 15px 0;
+}
+.faq summary {
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: 600;
+	list-style: none;
+	position: relative;
+	padding-right: 30px;
+}
+.faq summary::-webkit-details-marker {
+	display: none;
+}
+.faq summary::after {
+	content: "+";
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: #ef7f01;
+	font-size: 22px;
+	font-weight: 700;
+}
+.faq details[open] summary::after {
+	content: "\2212";
+}
+.faq details p {
+	color: #666;
+	margin: 10px 0 0;
+}
+
+/* ============================================================
+   Pricing tables (<table class="price-table">)
+   ============================================================ */
+
+.pricing h3 {
+	margin-top: 40px;
+}
+.pricing h3:first-child {
+	margin-top: 0;
+}
+.price-table {
+	width: 100%;
+	max-width: 700px;
+	border-collapse: collapse;
+}
+.price-table td {
+	padding: 10px 0;
+	border-bottom: 1px solid #ededed;
+}
+.price-table td:last-child {
+	text-align: right;
+	font-weight: bold;
+	white-space: nowrap;
+	padding-left: 20px;
+}
+
+/* ============================================================
+   Social links row
+   ============================================================ */
+
+.social-links ul {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.social-links a {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 52px;
+	height: 52px;
+	border-radius: 50%;
+	background: #ef7f01;
+	color: #fff;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+/* ============================================================
+   Simple image grid (replaces the JS-driven flexslider/isotope gallery
+   widget). auto-fit so it works both as a small 2x2 grid
+   (pourquoi-choisir) and a wide 6-photo strip (homepage activities).
+   ============================================================ */
+
+.simple_gallery {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 4px;
+}
+.simple_gallery img {
+	width: 100%;
+	height: 220px;
+	object-fit: cover;
+	display: block;
+}
+
+/* ============================================================
+   Blog article photo carousel (replaces .simple_gallery's static grid
+   for article content specifically - marketing pages keep the grid).
+   Auto-advances via theme.js (every 2s, paused on hover/touch); each
+   image opens the shared fullscreen lightbox on click. Native scroll-snap
+   means it's also fully usable by hand (swipe/drag) with no JS at all.
+   ============================================================ */
+
+.article_carousel {
+	display: flex;
+	gap: 10px;
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
+	-webkit-overflow-scrolling: touch;
+	padding-bottom: 10px;
+}
+.article_carousel img {
+	flex: 0 0 auto;
+	width: min(70vw, 480px);
+	height: 320px;
+	object-fit: cover;
+	border-radius: 4px;
+	scroll-snap-align: start;
+	cursor: pointer;
+	display: block;
+}
+@media (max-width: 600px) {
+	.article_carousel img {
+		width: 85vw;
+		height: 240px;
+	}
+}
+
+/* ============================================================
+   Fullscreen image lightbox (built once by theme.js, shared by every
+   .article_carousel on the page).
+   ============================================================ */
+
+.lightbox {
+	display: none;
+	position: fixed;
+	inset: 0;
+	z-index: 1000;
+	align-items: center;
+	justify-content: center;
+	background: rgba(0, 0, 0, .92);
+	padding: 60px 20px;
+}
+.lightbox.is-open {
+	display: flex;
+}
+.lightbox img {
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: contain;
+	border-radius: 4px;
+}
+.lightbox-close,
+.lightbox-prev,
+.lightbox-next {
+	position: absolute;
+	border: 0;
+	background: rgba(255, 255, 255, .1);
+	color: #fff;
+	cursor: pointer;
+	line-height: 1;
+	border-radius: 50%;
+	transition: background .15s ease;
+}
+.lightbox-close:hover,
+.lightbox-prev:hover,
+.lightbox-next:hover {
+	background: rgba(255, 255, 255, .25);
+}
+.lightbox-close {
+	top: 20px;
+	right: 20px;
+	width: 44px;
+	height: 44px;
+	font-size: 28px;
+}
+.lightbox-prev,
+.lightbox-next {
+	top: 50%;
+	transform: translateY(-50%);
+	width: 52px;
+	height: 52px;
+	font-size: 30px;
+}
+.lightbox-prev {
+	left: 20px;
+}
+.lightbox-next {
+	right: 20px;
+}
+@media (max-width: 600px) {
+	.lightbox {
+		padding: 80px 10px;
+	}
+	.lightbox-prev,
+	.lightbox-next {
+		width: 44px;
+		height: 44px;
+		font-size: 24px;
+	}
+}
+
+/* ============================================================
+   Static self-hosted Instagram grid (see CLAUDE.md "Instagram/Facebook
+   feeds" for why this isn't a live embed).
+   ============================================================ */
+
+.instagram_grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 0;
+	max-width: 900px;
+	margin: 0 auto;
+}
+.instagram_grid_item {
+	position: relative;
+	display: block;
+	aspect-ratio: 1;
+	overflow: hidden;
+}
+.instagram_grid_item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+	transition: transform 0.3s ease-in-out;
+}
+.instagram_grid_item:hover img {
+	transform: scale(1.08);
+}
+.instagram_grid_play {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #fff;
+	text-shadow: 0 1px 3px rgba(0, 0, 0, .6);
+	font-size: 18px;
+}
+
+/* ============================================================
+   Google Maps embed column
+   ============================================================ */
+
+.map_embed {
+	position: relative;
+	padding-bottom: 75%;
+	height: 0;
+	overflow: hidden;
+}
+.map_embed iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
+/* ============================================================
+   Blog listing (index.html / home.html "Paroles d'adhérents")
+   ============================================================ */
+
+/* On home.html's "Paroles d'adhérents" teaser, .article_grid is the
+   direct content - keep it self-contained with its own width/padding.
+   On the blog index it's nested inside .blog-main (itself already
+   constrained by .blog-layout), where this max-width is a harmless
+   no-op since the flex column is already narrower. */
+.article_grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+	gap: 30px;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 0 40px;
+}
+.pagination {
+	padding: 0 0 40px;
+	text-align: center;
+}
+
+/* Blog index: article grid + pagination on the left, "Articles récents" /
+   "Archives" on the right - a real sidebar, unlike every other page's
+   single centered reading column. */
+.blog-layout {
+	display: flex;
+	align-items: flex-start;
+	gap: 50px;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px 60px;
+}
+.blog-main {
+	flex: 1 1 auto;
+	min-width: 0;
+}
+.blog-sidebar {
+	flex: 0 0 260px;
+}
+.blog-sidebar h2 {
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 0 0 15px;
+}
+.blog-sidebar h3 {
+	font-size: 14px;
+	color: #ef7f01;
+	margin: 20px 0 8px;
+}
+.blog-sidebar section + section {
+	margin-top: 40px;
+}
+.blog-sidebar ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.blog-sidebar li {
+	margin-bottom: 8px;
+	font-size: 14px;
+	line-height: 1.4;
+}
+.blog-sidebar a {
+	color: #333;
+	text-decoration: none;
+}
+.blog-sidebar a:hover {
+	color: #ef7f01;
+}
+@media (max-width: 900px) {
+	.blog-layout {
+		flex-direction: column;
+	}
+	.blog-sidebar {
+		flex: 1 1 auto;
+		width: 100%;
+	}
+}
+.article-card {
+	background: #fff;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, .12);
+	border-radius: 4px;
+	overflow: hidden;
+}
+.article-card img {
+	display: block;
+	width: 100%;
+	height: 190px;
+	object-fit: cover;
+}
+.article-card .article_card_inner {
+	padding: 20px;
+}
+.article-card h2 {
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+.article-card h2 a {
+	color: inherit;
+}
+.article-card .article_meta {
+	color: #999;
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+.no_articles {
+	padding: 60px 20px;
+	text-align: center;
+	color: #777;
+}
+.article-meta {
+	margin-bottom: 20px;
+	color: #999;
+}
+.article-tags {
+	margin-top: 30px;
+}
+
+/* ============================================================
+   Footer
+   ============================================================ */
+
+.site-footer {
+	background: #1b3a57;
+	color: #cfd8e3;
+	margin-top: 60px;
+}
+.site-footer-columns {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 40px;
+	padding: 60px 20px;
+}
+.footer-col h2 {
+	color: #fff;
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 0 0 15px;
+}
+.footer-col p,
+.footer-col li {
+	font-size: 14px;
+	line-height: 1.6;
+}
+.footer-col a {
+	color: #cfd8e3;
+}
+.footer-col a:hover {
+	color: #ef7f01;
+}
+.footer-col ul {
+	list-style: none;
+	margin: 0 0 15px;
+	padding: 0;
+}
+.footer-col ul li {
+	margin-bottom: 6px;
+}
+.footer-col img {
+	max-width: 100%;
+	height: auto;
+}
+.site-footer-bottom {
+	border-top: 1px solid rgba(255, 255, 255, .15);
+	padding: 20px;
+	text-align: center;
+	font-size: 13px;
+}
+.site-footer-bottom a {
+	color: #cfd8e3;
+}
+
+@media (max-width: 768px) {
+	.site-footer-columns {
+		grid-template-columns: 1fr;
+	}
+}
+
+/* ============================================================
+   Back-to-top button
+   ============================================================ */
+
+#back-to-top {
+	position: fixed;
+	right: 25px;
+	bottom: 25px;
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	border: 2px solid #e8e8e8;
+	background: #fff;
+	color: #b0b0b0;
+	font-size: 18px;
+	cursor: pointer;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity .2s ease, visibility .2s ease, background .2s ease;
+	z-index: 200;
+}
+#back-to-top.on {
+	opacity: 1;
+	visibility: visible;
+}
+#back-to-top:hover {
+	background: #e8e8e8;
+}

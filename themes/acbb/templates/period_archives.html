@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% if period_num|length > 1 %}
+	{% set period_label = period_num[1]|month_name|capitalize ~ " " ~ period_num[0] %}
+{% else %}
+	{% set period_label = period_num[0] %}
+{% endif %}
+{% block title %}{{ period_label }} - {{ SITENAME }}{% endblock %}
+{% block content %}
+<header class="page-header">
+	<h1>{{ period_label }}</h1>
+</header>
+{% set article_list = dates %}
+{% include "article_list.html" with context %}
+{% endblock %}

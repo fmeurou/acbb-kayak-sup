@@ -1,0 +1,22 @@
+{# expects `article_list` in context: an iterable of Article objects #}
+{% if article_list %}
+<div class="article_grid">
+	{% for article in article_list %}
+	<article class="article-card">
+		{% if article.image %}
+		<a href="{{ SITEURL }}/{{ article.url }}"><img src="{{ article.image }}" alt="{{ article.title }}"></a>
+		{% endif %}
+		<div class="article_card_inner">
+			<h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
+			<p class="article_meta">
+				{{ article.locale_date }}
+				{% if article.category %} &mdash; <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>{% endif %}
+			</p>
+			{% if article.summary %}<p>{{ article.summary }}</p>{% endif %}
+		</div>
+	</article>
+	{% endfor %}
+</div>
+{% else %}
+<p class="no_articles">Aucun article publié pour le moment.</p>
+{% endif %}

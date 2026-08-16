@@ -20,29 +20,29 @@ Le séjour en images
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/stage-eaux-vives-palaresa-espagne/pala1-1024x768.jpg" alt="">
-<img src="/images/blog/stage-eaux-vives-palaresa-espagne/pala2-1024x768.jpg" alt="">
-<img src="/images/blog/stage-eaux-vives-palaresa-espagne/pala3-1024x768.jpg" alt="">
-<img src="/images/blog/stage-eaux-vives-palaresa-espagne/pala4-1024x768.jpg" alt="">
-<img src="/images/blog/stage-eaux-vives-palaresa-espagne/pala5-1024x768.jpg" alt="">
-<img src="/images/blog/stage-eaux-vives-palaresa-espagne/pala6-1024x768.jpg" alt="">
-<img src="/images/blog/stage-eaux-vives-palaresa-espagne/pala9-1024x768.jpg" alt="">
-<img src="/images/blog/stage-eaux-vives-palaresa-espagne/pala26-1024x768.jpg" alt="">
-<img src="/images/blog/stage-eaux-vives-palaresa-espagne/pala25-1024x768.jpg" alt="">
-<img src="/images/blog/stage-eaux-vives-palaresa-espagne/pala24-1024x768.jpg" alt="">
-<img src="/images/blog/stage-eaux-vives-palaresa-espagne/pala23-1024x768.jpg" alt="">
-<img src="/images/blog/stage-eaux-vives-palaresa-espagne/pala22-1024x768.jpg" alt="">
-<img src="/images/blog/stage-eaux-vives-palaresa-espagne/pala12-1024x768.jpg" alt="">
-<img src="/images/blog/stage-eaux-vives-palaresa-espagne/pala14-1024x768.jpg" alt="">
-<img src="/images/blog/stage-eaux-vives-palaresa-espagne/pala16-1024x768.jpg" alt="">
-<img src="/images/blog/stage-eaux-vives-palaresa-espagne/pala21-1024x768.jpg" alt="">
-<img src="/images/blog/stage-eaux-vives-palaresa-espagne/pala20-1024x768.jpg" alt="">
-<img src="/images/blog/stage-eaux-vives-palaresa-espagne/pala18-1024x768.jpg" alt="">
-<img src="/images/blog/stage-eaux-vives-palaresa-espagne/pala17-1024x768.jpg" alt="">
-<img src="/images/blog/stage-eaux-vives-palaresa-espagne/pala19-1024x768.jpg" alt="">
-<img src="/images/blog/stage-eaux-vives-palaresa-espagne/pala10-1024x768.jpg" alt="">
-<img src="/images/blog/stage-eaux-vives-palaresa-espagne/pala8-1024x768.jpg" alt="">
-<img src="/images/blog/stage-eaux-vives-palaresa-espagne/pala7-1024x768.jpg" alt="">
-<img src="/images/blog/stage-eaux-vives-palaresa-espagne/pala11-1024x768.jpg" alt="">
+<img src="{static}/images/blog/stage-eaux-vives-palaresa-espagne/pala1-1024x768.jpg" alt="">
+<img src="{static}/images/blog/stage-eaux-vives-palaresa-espagne/pala2-1024x768.jpg" alt="">
+<img src="{static}/images/blog/stage-eaux-vives-palaresa-espagne/pala3-1024x768.jpg" alt="">
+<img src="{static}/images/blog/stage-eaux-vives-palaresa-espagne/pala4-1024x768.jpg" alt="">
+<img src="{static}/images/blog/stage-eaux-vives-palaresa-espagne/pala5-1024x768.jpg" alt="">
+<img src="{static}/images/blog/stage-eaux-vives-palaresa-espagne/pala6-1024x768.jpg" alt="">
+<img src="{static}/images/blog/stage-eaux-vives-palaresa-espagne/pala9-1024x768.jpg" alt="">
+<img src="{static}/images/blog/stage-eaux-vives-palaresa-espagne/pala26-1024x768.jpg" alt="">
+<img src="{static}/images/blog/stage-eaux-vives-palaresa-espagne/pala25-1024x768.jpg" alt="">
+<img src="{static}/images/blog/stage-eaux-vives-palaresa-espagne/pala24-1024x768.jpg" alt="">
+<img src="{static}/images/blog/stage-eaux-vives-palaresa-espagne/pala23-1024x768.jpg" alt="">
+<img src="{static}/images/blog/stage-eaux-vives-palaresa-espagne/pala22-1024x768.jpg" alt="">
+<img src="{static}/images/blog/stage-eaux-vives-palaresa-espagne/pala12-1024x768.jpg" alt="">
+<img src="{static}/images/blog/stage-eaux-vives-palaresa-espagne/pala14-1024x768.jpg" alt="">
+<img src="{static}/images/blog/stage-eaux-vives-palaresa-espagne/pala16-1024x768.jpg" alt="">
+<img src="{static}/images/blog/stage-eaux-vives-palaresa-espagne/pala21-1024x768.jpg" alt="">
+<img src="{static}/images/blog/stage-eaux-vives-palaresa-espagne/pala20-1024x768.jpg" alt="">
+<img src="{static}/images/blog/stage-eaux-vives-palaresa-espagne/pala18-1024x768.jpg" alt="">
+<img src="{static}/images/blog/stage-eaux-vives-palaresa-espagne/pala17-1024x768.jpg" alt="">
+<img src="{static}/images/blog/stage-eaux-vives-palaresa-espagne/pala19-1024x768.jpg" alt="">
+<img src="{static}/images/blog/stage-eaux-vives-palaresa-espagne/pala10-1024x768.jpg" alt="">
+<img src="{static}/images/blog/stage-eaux-vives-palaresa-espagne/pala8-1024x768.jpg" alt="">
+<img src="{static}/images/blog/stage-eaux-vives-palaresa-espagne/pala7-1024x768.jpg" alt="">
+<img src="{static}/images/blog/stage-eaux-vives-palaresa-espagne/pala11-1024x768.jpg" alt="">
 </div>
 </section>

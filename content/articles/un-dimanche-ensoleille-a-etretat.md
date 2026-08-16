@@ -22,6 +22,6 @@ A refaire.
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/un-dimanche-ensoleille-a-etretat/Etretat2.jpg" alt="">
+<img src="{static}/images/blog/un-dimanche-ensoleille-a-etretat/Etretat2.jpg" alt="">
 </div>
 </section>

@@ -18,7 +18,7 @@ Idéal pour renforcer la cohésion, découvrir une activité originale et partag
 
 <section class="split">
 <figure>
-<img src="/images/groupes-ce/acbb-kayak-sup-team-building-groupe-ce-500x500-4.jpg" alt="Team-building en kayak ACBB">
+<img src="{static}/images/groupes-ce/acbb-kayak-sup-team-building-groupe-ce-500x500-4.jpg" alt="Team-building en kayak ACBB">
 </figure>
 <div>
 <h3><strong>Entreprises, CE… (en groupe de 8 personnes minimum)</strong></h3>
@@ -30,7 +30,7 @@ Idéal pour renforcer la cohésion, découvrir une activité originale et partag
 
 <section class="split">
 <figure>
-<img src="/images/groupes-ce/acbb-team-building-groupe-entreprises-500x500-1.jpg" alt="Groupe de particuliers en kayak ACBB">
+<img src="{static}/images/groupes-ce/acbb-team-building-groupe-entreprises-500x500-1.jpg" alt="Groupe de particuliers en kayak ACBB">
 </figure>
 <div>
 <h3><strong>Particuliers (en groupe de 8 personnes minimum)</strong></h3>

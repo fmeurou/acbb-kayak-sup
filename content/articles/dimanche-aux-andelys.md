@@ -18,11 +18,11 @@ Une petite pause déjeuner en cours de route avec une arrivée tout en sourire v
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/dimanche-aux-andelys/andelys1-1024x768.jpg" alt="">
-<img src="/images/blog/dimanche-aux-andelys/andelys2-1024x768.jpg" alt="">
-<img src="/images/blog/dimanche-aux-andelys/andelys4-1024x768.jpg" alt="">
-<img src="/images/blog/dimanche-aux-andelys/andelys3-1024x768.jpg" alt="">
-<img src="/images/blog/dimanche-aux-andelys/andely6-1024x768.jpg" alt="">
-<img src="/images/blog/dimanche-aux-andelys/andelys7-1024x768.jpg" alt="">
+<img src="{static}/images/blog/dimanche-aux-andelys/andelys1-1024x768.jpg" alt="">
+<img src="{static}/images/blog/dimanche-aux-andelys/andelys2-1024x768.jpg" alt="">
+<img src="{static}/images/blog/dimanche-aux-andelys/andelys4-1024x768.jpg" alt="">
+<img src="{static}/images/blog/dimanche-aux-andelys/andelys3-1024x768.jpg" alt="">
+<img src="{static}/images/blog/dimanche-aux-andelys/andely6-1024x768.jpg" alt="">
+<img src="{static}/images/blog/dimanche-aux-andelys/andelys7-1024x768.jpg" alt="">
 </div>
 </section>

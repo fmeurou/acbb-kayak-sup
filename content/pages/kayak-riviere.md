@@ -16,11 +16,11 @@ Summary: Le kayak rivière à l'ACBB : une discipline dynamique et technique pou
 
 <section class="wide">
 <div class="simple_gallery">
-<img src="/images/activites/kayak-riviere/Acbb-kayak-loisir-riviere-esquimautage-apprentissage-500x500-0.jpg" alt="">
-<img src="/images/activites/kayak-riviere/kayak-loisir-500x500-0.jpg" alt="">
-<img src="/images/activites/kayak-riviere/kayak-loisir-500x500-4.jpg" alt="">
-<img src="/images/activites/kayak-riviere/acbb-kayak-loisir-riviere-500x500-1.jpg" alt="">
-<img src="/images/activites/kayak-riviere/acbb-kayak-loisir-riviere-ile-de-la-serre-800x800-1.jpg" alt="">
+<img src="{static}/images/activites/kayak-riviere/Acbb-kayak-loisir-riviere-esquimautage-apprentissage-500x500-0.jpg" alt="">
+<img src="{static}/images/activites/kayak-riviere/kayak-loisir-500x500-0.jpg" alt="">
+<img src="{static}/images/activites/kayak-riviere/kayak-loisir-500x500-4.jpg" alt="">
+<img src="{static}/images/activites/kayak-riviere/acbb-kayak-loisir-riviere-500x500-1.jpg" alt="">
+<img src="{static}/images/activites/kayak-riviere/acbb-kayak-loisir-riviere-ile-de-la-serre-800x800-1.jpg" alt="">
 </div>
 </section>
 
@@ -53,8 +53,8 @@ Aucun niveau requis : tout est progressif et encadré
 
 <section class="wide">
 <div class="simple_gallery">
-<img src="/images/activites/kayak-riviere/Acbb-kayak-loisir-riviere-bassin-eau-vive-800x800-1.jpg" alt="">
-<img src="/images/activites/kayak-riviere/Acbb-kayak-loisir-riviere-bassin-eau-vive-800x800-0.jpg" alt="">
+<img src="{static}/images/activites/kayak-riviere/Acbb-kayak-loisir-riviere-bassin-eau-vive-800x800-1.jpg" alt="">
+<img src="{static}/images/activites/kayak-riviere/Acbb-kayak-loisir-riviere-bassin-eau-vive-800x800-0.jpg" alt="">
 </div>
 </section>
 
@@ -92,7 +92,7 @@ Vous cherchez une pratique plus douce et dépaysante ? Essayez le **Kayak Mer**,
 <p>À l'ACBB, on ne vient pas seulement pagayer. On vient partager, rire, progresser ensemble.<br>
 Ici, chaque séance est un moment de convivialité, d'échange et de bonne humeur.<br>
 <strong>Un club, une ambiance, une 2e famille</strong></p>
-<a href="/pages/pourquoi-choisir-acbb.html" class="qbutton center default">POURQUOI NOUS CHOISIR ?</a>
+<a href="{filename}/pages/nous-choisir.md" class="qbutton center default">POURQUOI NOUS CHOISIR ?</a>
 </section>
 
 <section markdown="1">

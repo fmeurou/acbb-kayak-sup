@@ -18,14 +18,14 @@ Ouf, on peut partir.
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/we-du-8-mai-dans-le-golfe-du-morbihan/WhatsApp-Image-2025-05-08-a-17.36.39_8b827606.jpg" alt="">
-<img src="/images/blog/we-du-8-mai-dans-le-golfe-du-morbihan/WhatsApp-Image-2025-05-08-a-17.36.42_1ee4a1ef.jpg" alt="">
-<img src="/images/blog/we-du-8-mai-dans-le-golfe-du-morbihan/WhatsApp-Image-2025-05-09-a-16.47.14_4eafe514.jpg" alt="">
-<img src="/images/blog/we-du-8-mai-dans-le-golfe-du-morbihan/WhatsApp-Image-2025-05-09-a-16.47.15_d7a565e6.jpg" alt="">
-<img src="/images/blog/we-du-8-mai-dans-le-golfe-du-morbihan/WhatsApp-Image-2025-05-11-a-08.59.14_e16d4ba5.jpg" alt="">
-<img src="/images/blog/we-du-8-mai-dans-le-golfe-du-morbihan/WhatsApp-Image-2025-05-11-a-13.21.30_b99de95e.jpg" alt="">
-<img src="/images/blog/we-du-8-mai-dans-le-golfe-du-morbihan/WhatsApp-Image-2025-05-08-a-17.36.28_8dd26a1c.jpg" alt="">
-<img src="/images/blog/we-du-8-mai-dans-le-golfe-du-morbihan/WhatsApp-Image-2025-05-12-a-12.55.55_38c09fb8.jpg" alt="">
+<img src="{static}/images/blog/we-du-8-mai-dans-le-golfe-du-morbihan/WhatsApp-Image-2025-05-08-a-17.36.39_8b827606.jpg" alt="">
+<img src="{static}/images/blog/we-du-8-mai-dans-le-golfe-du-morbihan/WhatsApp-Image-2025-05-08-a-17.36.42_1ee4a1ef.jpg" alt="">
+<img src="{static}/images/blog/we-du-8-mai-dans-le-golfe-du-morbihan/WhatsApp-Image-2025-05-09-a-16.47.14_4eafe514.jpg" alt="">
+<img src="{static}/images/blog/we-du-8-mai-dans-le-golfe-du-morbihan/WhatsApp-Image-2025-05-09-a-16.47.15_d7a565e6.jpg" alt="">
+<img src="{static}/images/blog/we-du-8-mai-dans-le-golfe-du-morbihan/WhatsApp-Image-2025-05-11-a-08.59.14_e16d4ba5.jpg" alt="">
+<img src="{static}/images/blog/we-du-8-mai-dans-le-golfe-du-morbihan/WhatsApp-Image-2025-05-11-a-13.21.30_b99de95e.jpg" alt="">
+<img src="{static}/images/blog/we-du-8-mai-dans-le-golfe-du-morbihan/WhatsApp-Image-2025-05-08-a-17.36.28_8dd26a1c.jpg" alt="">
+<img src="{static}/images/blog/we-du-8-mai-dans-le-golfe-du-morbihan/WhatsApp-Image-2025-05-12-a-12.55.55_38c09fb8.jpg" alt="">
 </div>
 </section>
 

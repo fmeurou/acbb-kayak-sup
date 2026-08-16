@@ -26,6 +26,6 @@ D’autres beaux souvenirs comme le point de vue sur le lac Léman depuis la pis
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/une-semaine-dans-le-jura/skifond2020-8.jpg" alt="">
+<img src="{static}/images/blog/une-semaine-dans-le-jura/skifond2020-8.jpg" alt="">
 </div>
 </section>

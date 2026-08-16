@@ -16,8 +16,8 @@ On ne s’en lassera jamais : per Venezia, per San Marco !!!
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/la-tant-attendue-vogalonga/IMG-20220626-WA0027-150x150.jpg" alt="">
-<img src="/images/blog/la-tant-attendue-vogalonga/IMG-20220626-WA0032-150x150.jpg" alt="">
-<img src="/images/blog/la-tant-attendue-vogalonga/IMG-20220626-WA0024-150x150.jpg" alt="">
+<img src="{static}/images/blog/la-tant-attendue-vogalonga/IMG-20220626-WA0027-150x150.jpg" alt="">
+<img src="{static}/images/blog/la-tant-attendue-vogalonga/IMG-20220626-WA0032-150x150.jpg" alt="">
+<img src="{static}/images/blog/la-tant-attendue-vogalonga/IMG-20220626-WA0024-150x150.jpg" alt="">
 </div>
 </section>

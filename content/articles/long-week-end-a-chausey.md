@@ -22,12 +22,12 @@ La traversée se passe bien. Peu de vent et mer calme.
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/long-week-end-a-chausey/01-chausey-2023.jpg" alt="">
-<img src="/images/blog/long-week-end-a-chausey/5-chausey-2023.jpg" alt="">
-<img src="/images/blog/long-week-end-a-chausey/06-chausey-2023.jpg" alt="">
-<img src="/images/blog/long-week-end-a-chausey/2-chausey-2023.jpg" alt="">
-<img src="/images/blog/long-week-end-a-chausey/07-chausey-2023.jpg" alt="">
-<img src="/images/blog/long-week-end-a-chausey/04-chausey-2023.jpg" alt="">
+<img src="{static}/images/blog/long-week-end-a-chausey/01-chausey-2023.jpg" alt="">
+<img src="{static}/images/blog/long-week-end-a-chausey/5-chausey-2023.jpg" alt="">
+<img src="{static}/images/blog/long-week-end-a-chausey/06-chausey-2023.jpg" alt="">
+<img src="{static}/images/blog/long-week-end-a-chausey/2-chausey-2023.jpg" alt="">
+<img src="{static}/images/blog/long-week-end-a-chausey/07-chausey-2023.jpg" alt="">
+<img src="{static}/images/blog/long-week-end-a-chausey/04-chausey-2023.jpg" alt="">
 </div>
 </section>
 

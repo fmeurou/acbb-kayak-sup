@@ -20,14 +20,14 @@ La cotation de difficulté est classée de I à III suivant les tronçons.
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/we-eaux-vives-st-pierre-de-boeuf/stpierre4-1024x768.jpg" alt="">
-<img src="/images/blog/we-eaux-vives-st-pierre-de-boeuf/stpierre8-1024x768.jpg" alt="">
-<img src="/images/blog/we-eaux-vives-st-pierre-de-boeuf/stpierre7-1024x768.jpg" alt="">
-<img src="/images/blog/we-eaux-vives-st-pierre-de-boeuf/stpierre1-1024x768.jpg" alt="">
-<img src="/images/blog/we-eaux-vives-st-pierre-de-boeuf/stpierre3-1024x768.jpg" alt="">
-<img src="/images/blog/we-eaux-vives-st-pierre-de-boeuf/stpierre2-1024x768.jpg" alt="">
-<img src="/images/blog/we-eaux-vives-st-pierre-de-boeuf/stpierre6-1024x768.jpg" alt="">
-<img src="/images/blog/we-eaux-vives-st-pierre-de-boeuf/stpierre5-1024x768.jpg" alt="">
-<img src="/images/blog/we-eaux-vives-st-pierre-de-boeuf/stpierre0-1024x768.jpg" alt="">
+<img src="{static}/images/blog/we-eaux-vives-st-pierre-de-boeuf/stpierre4-1024x768.jpg" alt="">
+<img src="{static}/images/blog/we-eaux-vives-st-pierre-de-boeuf/stpierre8-1024x768.jpg" alt="">
+<img src="{static}/images/blog/we-eaux-vives-st-pierre-de-boeuf/stpierre7-1024x768.jpg" alt="">
+<img src="{static}/images/blog/we-eaux-vives-st-pierre-de-boeuf/stpierre1-1024x768.jpg" alt="">
+<img src="{static}/images/blog/we-eaux-vives-st-pierre-de-boeuf/stpierre3-1024x768.jpg" alt="">
+<img src="{static}/images/blog/we-eaux-vives-st-pierre-de-boeuf/stpierre2-1024x768.jpg" alt="">
+<img src="{static}/images/blog/we-eaux-vives-st-pierre-de-boeuf/stpierre6-1024x768.jpg" alt="">
+<img src="{static}/images/blog/we-eaux-vives-st-pierre-de-boeuf/stpierre5-1024x768.jpg" alt="">
+<img src="{static}/images/blog/we-eaux-vives-st-pierre-de-boeuf/stpierre0-1024x768.jpg" alt="">
 </div>
 </section>

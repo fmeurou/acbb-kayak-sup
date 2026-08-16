@@ -26,27 +26,27 @@ Summary: 1er jour : Arrivée à l’aéroport de Point-à-Pitre – 19h…
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/semaine-en-guadeloupe-2017/guada3-1024x768.jpg" alt="">
-<img src="/images/blog/semaine-en-guadeloupe-2017/guada17-1024x768.jpg" alt="">
-<img src="/images/blog/semaine-en-guadeloupe-2017/guada18-1024x768.jpg" alt="">
-<img src="/images/blog/semaine-en-guadeloupe-2017/guada19-1024x768.jpg" alt="">
-<img src="/images/blog/semaine-en-guadeloupe-2017/guada20-1024x768.jpg" alt="">
-<img src="/images/blog/semaine-en-guadeloupe-2017/guada21-1024x768.jpg" alt="">
-<img src="/images/blog/semaine-en-guadeloupe-2017/guada12-1-1024x767.jpg" alt="">
-<img src="/images/blog/semaine-en-guadeloupe-2017/guada11-1024x769.jpg" alt="">
-<img src="/images/blog/semaine-en-guadeloupe-2017/guada8-1024x769.jpg" alt="">
-<img src="/images/blog/semaine-en-guadeloupe-2017/guada7-1024x769.jpg" alt="">
-<img src="/images/blog/semaine-en-guadeloupe-2017/guada5-1024x768.jpg" alt="">
-<img src="/images/blog/semaine-en-guadeloupe-2017/gauda27-1024x768.jpg" alt="">
-<img src="/images/blog/semaine-en-guadeloupe-2017/guada13-1024x768.jpg" alt="">
-<img src="/images/blog/semaine-en-guadeloupe-2017/guada9-1024x768.jpg" alt="">
-<img src="/images/blog/semaine-en-guadeloupe-2017/guada10-1024x768.jpg" alt="">
-<img src="/images/blog/semaine-en-guadeloupe-2017/guada27-1024x768.jpg" alt="">
-<img src="/images/blog/semaine-en-guadeloupe-2017/guada25-1024x768.jpg" alt="">
-<img src="/images/blog/semaine-en-guadeloupe-2017/guada28-1024x768.jpg" alt="">
-<img src="/images/blog/semaine-en-guadeloupe-2017/guada29-1024x768.jpg" alt="">
-<img src="/images/blog/semaine-en-guadeloupe-2017/guada31-1024x768.jpg" alt="">
-<img src="/images/blog/semaine-en-guadeloupe-2017/guada15-1024x768.jpg" alt="">
-<img src="/images/blog/semaine-en-guadeloupe-2017/guada14-1024x768.jpg" alt="">
+<img src="{static}/images/blog/semaine-en-guadeloupe-2017/guada3-1024x768.jpg" alt="">
+<img src="{static}/images/blog/semaine-en-guadeloupe-2017/guada17-1024x768.jpg" alt="">
+<img src="{static}/images/blog/semaine-en-guadeloupe-2017/guada18-1024x768.jpg" alt="">
+<img src="{static}/images/blog/semaine-en-guadeloupe-2017/guada19-1024x768.jpg" alt="">
+<img src="{static}/images/blog/semaine-en-guadeloupe-2017/guada20-1024x768.jpg" alt="">
+<img src="{static}/images/blog/semaine-en-guadeloupe-2017/guada21-1024x768.jpg" alt="">
+<img src="{static}/images/blog/semaine-en-guadeloupe-2017/guada12-1-1024x767.jpg" alt="">
+<img src="{static}/images/blog/semaine-en-guadeloupe-2017/guada11-1024x769.jpg" alt="">
+<img src="{static}/images/blog/semaine-en-guadeloupe-2017/guada8-1024x769.jpg" alt="">
+<img src="{static}/images/blog/semaine-en-guadeloupe-2017/guada7-1024x769.jpg" alt="">
+<img src="{static}/images/blog/semaine-en-guadeloupe-2017/guada5-1024x768.jpg" alt="">
+<img src="{static}/images/blog/semaine-en-guadeloupe-2017/gauda27-1024x768.jpg" alt="">
+<img src="{static}/images/blog/semaine-en-guadeloupe-2017/guada13-1024x768.jpg" alt="">
+<img src="{static}/images/blog/semaine-en-guadeloupe-2017/guada9-1024x768.jpg" alt="">
+<img src="{static}/images/blog/semaine-en-guadeloupe-2017/guada10-1024x768.jpg" alt="">
+<img src="{static}/images/blog/semaine-en-guadeloupe-2017/guada27-1024x768.jpg" alt="">
+<img src="{static}/images/blog/semaine-en-guadeloupe-2017/guada25-1024x768.jpg" alt="">
+<img src="{static}/images/blog/semaine-en-guadeloupe-2017/guada28-1024x768.jpg" alt="">
+<img src="{static}/images/blog/semaine-en-guadeloupe-2017/guada29-1024x768.jpg" alt="">
+<img src="{static}/images/blog/semaine-en-guadeloupe-2017/guada31-1024x768.jpg" alt="">
+<img src="{static}/images/blog/semaine-en-guadeloupe-2017/guada15-1024x768.jpg" alt="">
+<img src="{static}/images/blog/semaine-en-guadeloupe-2017/guada14-1024x768.jpg" alt="">
 </div>
 </section>

@@ -18,13 +18,13 @@ A bientôt sur l’eau !
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/dimanche-sarthe/sarthe8-300x225.jpg" alt="">
-<img src="/images/blog/dimanche-sarthe/sarthe7-300x225.jpg" alt="">
-<img src="/images/blog/dimanche-sarthe/sarthe6-300x225.jpg" alt="">
-<img src="/images/blog/dimanche-sarthe/sarthe5-300x225.jpg" alt="">
-<img src="/images/blog/dimanche-sarthe/sarthe4-300x221.jpg" alt="">
-<img src="/images/blog/dimanche-sarthe/sarthe3-300x225.jpg" alt="">
-<img src="/images/blog/dimanche-sarthe/sarthe2-300x225.jpg" alt="">
-<img src="/images/blog/dimanche-sarthe/sarthe1-300x225.jpg" alt="">
+<img src="{static}/images/blog/dimanche-sarthe/sarthe8-300x225.jpg" alt="">
+<img src="{static}/images/blog/dimanche-sarthe/sarthe7-300x225.jpg" alt="">
+<img src="{static}/images/blog/dimanche-sarthe/sarthe6-300x225.jpg" alt="">
+<img src="{static}/images/blog/dimanche-sarthe/sarthe5-300x225.jpg" alt="">
+<img src="{static}/images/blog/dimanche-sarthe/sarthe4-300x221.jpg" alt="">
+<img src="{static}/images/blog/dimanche-sarthe/sarthe3-300x225.jpg" alt="">
+<img src="{static}/images/blog/dimanche-sarthe/sarthe2-300x225.jpg" alt="">
+<img src="{static}/images/blog/dimanche-sarthe/sarthe1-300x225.jpg" alt="">
 </div>
 </section>

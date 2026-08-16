@@ -16,13 +16,13 @@ Summary: Plus qu'un sport, une énergie partagée : découvrez pourquoi rejoindr
 
 <section class="split">
 <figure>
-<img src="/images/pourquoi-choisir/dejeuner.jpg" alt="Déjeuner convivial après une sortie ACBB">
+<img src="{static}/images/pourquoi-choisir/dejeuner.jpg" alt="Déjeuner convivial après une sortie ACBB">
 </figure>
 <div class="simple_gallery">
-<img src="/images/pourquoi-choisir/waveski-surf.jpg" alt="Waveski surf ACBB">
-<img src="/images/pourquoi-choisir/hiver.jpg" alt="Sortie kayak d'hiver ACBB">
-<img src="/images/pourquoi-choisir/kayak-loisir.jpg" alt="Kayak loisir ACBB">
-<img src="/images/pourquoi-choisir/jeunes-co-massages.jpg" alt="Kayak jeunes ACBB">
+<img src="{static}/images/pourquoi-choisir/waveski-surf.jpg" alt="Waveski surf ACBB">
+<img src="{static}/images/pourquoi-choisir/hiver.jpg" alt="Sortie kayak d'hiver ACBB">
+<img src="{static}/images/pourquoi-choisir/kayak-loisir.jpg" alt="Kayak loisir ACBB">
+<img src="{static}/images/pourquoi-choisir/jeunes-co-massages.jpg" alt="Kayak jeunes ACBB">
 </div>
 </section>
 
@@ -38,14 +38,14 @@ Summary: Plus qu'un sport, une énergie partagée : découvrez pourquoi rejoindr
 <p>Depuis plus de 80 ans, l'ACBB forme des athlètes de haut niveau et remporte des titres nationaux et internationaux. Une expertise reconnue, au service de tous – du loisir à la compétition.</p>
 </div>
 <figure>
-<img src="/images/pourquoi-choisir/70-ans.jpg" alt="70 ans du Club ACBB Canoë-Kayak et Stand Up Paddle">
+<img src="{static}/images/pourquoi-choisir/70-ans.jpg" alt="70 ans du Club ACBB Canoë-Kayak et Stand Up Paddle">
 <figcaption><strong>70 ans</strong> du Club ACBB Canoe-Kayak et Stand Up Paddle</figcaption>
 </figure>
 </section>
 
 <section class="split">
 <figure>
-<img src="/images/pourquoi-choisir/traverseine-dragon-boat.jpg" alt="Équipage Dragon Boat ACBB à la Traverseine">
+<img src="{static}/images/pourquoi-choisir/traverseine-dragon-boat.jpg" alt="Équipage Dragon Boat ACBB à la Traverseine">
 <figcaption>Les Minions en équipage Dragon Boat – Traverseine</figcaption>
 </figure>
 <div>
@@ -62,8 +62,8 @@ Summary: Plus qu'un sport, une énergie partagée : découvrez pourquoi rejoindr
 <h2><strong>REJOIGNEZ L'ACBB CK-SUP ?</strong></h2>
 <p>Prêt à embarquer avec l'ACBB Canoe-kayak et SUP ?<br>
 Retrouvez toutes les informations pratiques pour nous rejoindre : horaires, tarifs, accès et inscriptions.</p>
-<a href="/pages/infos-pratiques.html" class="qbutton default">INFOS PRATIQUES</a>
-<a href="/pages/inscription.html" class="qbutton default">JE SOUHAITE M'INSCRIRE</a>
+<a href="{filename}/pages/infos-pratiques.md" class="qbutton default">INFOS PRATIQUES</a>
+<a href="{filename}/pages/inscriptions.md" class="qbutton default">JE SOUHAITE M'INSCRIRE</a>
 </section>
 
 <section markdown="1">

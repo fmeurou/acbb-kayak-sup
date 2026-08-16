@@ -7,7 +7,7 @@ Summary: Horaires des cours, accès à la base nautique de Sèvres, tarifs 2026-
 
 ### **Nous vous accueillons tous les samedis devant le hangar de l'ACBB aux horaires des cours**
 
-<a href="/pages/inscription.html" class="qbutton large center default">JE SOUHAITE M'INSCRIRE</a>
+<a href="{filename}/pages/inscriptions.md" class="qbutton large center default">JE SOUHAITE M'INSCRIRE</a>
 
 ## **LES HORAIRES DES COURS**
 
@@ -16,8 +16,8 @@ Télécharger le [**calendrier hebdomadaire des cours**](/files/calendrier-sessi
 </section>
 
 <section>
-<a href="/files/calendrier-sessions-2026-2027.pdf" target="_blank" rel="noopener">
-<img src="/images/calendrier-sessions-2026-2027.png" alt="Calendrier hebdomadaire des cours 2026-2027">
+<a href="{static}/files/calendrier-sessions-2026-2027.pdf" target="_blank" rel="noopener">
+<img src="{static}/images/calendrier-sessions-2026-2027.png" alt="Calendrier hebdomadaire des cours 2026-2027">
 </a>
 </section>
 
@@ -36,10 +36,10 @@ Parc Nautique départemental de l'île de Monsieur<br>
 <li><strong>Accessible en transports en commun</strong></li>
 <li>À proximité Parking Indigo payant pour les voitures</li>
 </ul>
-<p><img src="/theme/images/M9.png" alt="" width="42" height="24"><br>Metro Ligne 9 - Pont de Sèvres</p>
-<p><img src="/theme/images/T2bis.png" alt="" width="42" height="24"><br>Tramway T2 - Musée de Sèvres</p>
-<p><img src="/theme/images/bus.png" alt="" width="42" height="38"><br>Arrêt Pont-de-Sèvres : lignes 26, 160, 169 et 171<br>Arrêt Musée de Sèvres : lignes 26, 169, 71, 179, 279 et 469</p>
-<p><img src="/theme/images/voiture.png" alt="" width="42" height="38"><br>N118, D910 et RD7</p>
+<p><img src="{static}/images/icons/M9.png" alt="" width="42" height="24"><br>Metro Ligne 9 - Pont de Sèvres</p>
+<p><img src="{static}/images/icons/T2bis.png" alt="" width="42" height="24"><br>Tramway T2 - Musée de Sèvres</p>
+<p><img src="{static}/images/icons/bus.png" alt="" width="42" height="38"><br>Arrêt Pont-de-Sèvres : lignes 26, 160, 169 et 171<br>Arrêt Musée de Sèvres : lignes 26, 169, 71, 179, 279 et 469</p>
+<p><img src="{static}/images/icons/voiture.png" alt="" width="42" height="38"><br>N118, D910 et RD7</p>
 </div>
 <div class="map_embed">
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10505.705836832678!2d2.2243965!3d48.8310037!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67b1b8d3890ef%3A0x6ff7821fce4f867a!2sParc%20nautique%20d%C3%A9partemental%20of%20%C3%8Ele%20de%20Monsieur!5e0!3m2!1sen!2sfr!4v1756821826635!5m2!1sen!2sfr" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
@@ -99,7 +99,7 @@ Parc Nautique départemental de l'île de Monsieur<br>
 
 Pour les nouveaux adhérents
 
-<a href="/pages/inscription.html" class="qbutton large center default">JE SOUHAITE M'INSCRIRE</a>
+<a href="{filename}/pages/inscriptions.md" class="qbutton large center default">JE SOUHAITE M'INSCRIRE</a>
 
 ## **FAQ**
 

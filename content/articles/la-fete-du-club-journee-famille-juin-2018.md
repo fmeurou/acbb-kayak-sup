@@ -16,8 +16,8 @@ La traditionnelle Fête du Club a rassemblé les familles, jeunes et moins jeune
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/la-fete-du-club-journee-famille-juin-2018/feteclub3-1024x576.jpg" alt="">
-<img src="/images/blog/la-fete-du-club-journee-famille-juin-2018/feteclub2-1024x576.jpg" alt="">
+<img src="{static}/images/blog/la-fete-du-club-journee-famille-juin-2018/feteclub3-1024x576.jpg" alt="">
+<img src="{static}/images/blog/la-fete-du-club-journee-famille-juin-2018/feteclub2-1024x576.jpg" alt="">
 </div>
 </section>
 

@@ -20,19 +20,19 @@ Merci à Adèle pour l’organisation. Egalement aux encadrants.
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/stage-ski-de-fond-cdck92/4-ski-fond-2023.jpg" alt="">
-<img src="/images/blog/stage-ski-de-fond-cdck92/8-ski-fond-2023.jpg" alt="">
-<img src="/images/blog/stage-ski-de-fond-cdck92/10-ski-fond-2023.jpg" alt="">
-<img src="/images/blog/stage-ski-de-fond-cdck92/0-ski-fond-2023.jpg" alt="">
-<img src="/images/blog/stage-ski-de-fond-cdck92/1-ski-fond-2023.jpg" alt="">
-<img src="/images/blog/stage-ski-de-fond-cdck92/2-ski-fond-2023.jpg" alt="">
-<img src="/images/blog/stage-ski-de-fond-cdck92/9-ski-fond-2023.jpg" alt="">
-<img src="/images/blog/stage-ski-de-fond-cdck92/3-ski-fond-2023.jpg" alt="">
-<img src="/images/blog/stage-ski-de-fond-cdck92/11-ski-fond-2023.jpg" alt="">
-<img src="/images/blog/stage-ski-de-fond-cdck92/5-ski-fond-2023.jpg" alt="">
-<img src="/images/blog/stage-ski-de-fond-cdck92/12-ski-fond-2023.jpg" alt="">
-<img src="/images/blog/stage-ski-de-fond-cdck92/6-ski-fond-2023.jpg" alt="">
-<img src="/images/blog/stage-ski-de-fond-cdck92/7-ski-fond-2023.jpg" alt="">
+<img src="{static}/images/blog/stage-ski-de-fond-cdck92/4-ski-fond-2023.jpg" alt="">
+<img src="{static}/images/blog/stage-ski-de-fond-cdck92/8-ski-fond-2023.jpg" alt="">
+<img src="{static}/images/blog/stage-ski-de-fond-cdck92/10-ski-fond-2023.jpg" alt="">
+<img src="{static}/images/blog/stage-ski-de-fond-cdck92/0-ski-fond-2023.jpg" alt="">
+<img src="{static}/images/blog/stage-ski-de-fond-cdck92/1-ski-fond-2023.jpg" alt="">
+<img src="{static}/images/blog/stage-ski-de-fond-cdck92/2-ski-fond-2023.jpg" alt="">
+<img src="{static}/images/blog/stage-ski-de-fond-cdck92/9-ski-fond-2023.jpg" alt="">
+<img src="{static}/images/blog/stage-ski-de-fond-cdck92/3-ski-fond-2023.jpg" alt="">
+<img src="{static}/images/blog/stage-ski-de-fond-cdck92/11-ski-fond-2023.jpg" alt="">
+<img src="{static}/images/blog/stage-ski-de-fond-cdck92/5-ski-fond-2023.jpg" alt="">
+<img src="{static}/images/blog/stage-ski-de-fond-cdck92/12-ski-fond-2023.jpg" alt="">
+<img src="{static}/images/blog/stage-ski-de-fond-cdck92/6-ski-fond-2023.jpg" alt="">
+<img src="{static}/images/blog/stage-ski-de-fond-cdck92/7-ski-fond-2023.jpg" alt="">
 </div>
 </section>
 

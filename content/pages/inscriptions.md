@@ -35,7 +35,7 @@ Summary: Inscription et réinscription au club ACBB Canoë-Kayak et SUP pour la 
 </ul>
 </div>
 <figure>
-<img src="/images/inscription/grandpaddle.jpg" alt="ACBB Canoë-Kayak et Stand Up Paddle">
+<img src="{static}/images/inscription/grandpaddle.jpg" alt="ACBB Canoë-Kayak et Stand Up Paddle">
 </figure>
 </section>
 
@@ -86,8 +86,8 @@ Summary: Inscription et réinscription au club ACBB Canoë-Kayak et SUP pour la 
 </section>
 
 <section>
-<a href="/files/calendrier-sessions-2026-2027.pdf" target="_blank" rel="noopener">
-<img src="/images/calendrier-sessions-2026-2027.png" alt="Calendrier des cours 2026-2027">
+<a href="{static}/files/calendrier-sessions-2026-2027.pdf" target="_blank" rel="noopener">
+<img src="{static}/images/calendrier-sessions-2026-2027.png" alt="Calendrier des cours 2026-2027">
 <p><strong>Télécharger le calendrier hebdomadaire</strong></p>
 </a>
 </section>

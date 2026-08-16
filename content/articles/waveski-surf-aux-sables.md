@@ -18,13 +18,13 @@ Tout ceci pour la joie, la bonne humeur …
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/waveski-surf-aux-sables/01-sables.jpg" alt="">
-<img src="/images/blog/waveski-surf-aux-sables/06-mont-st-michel.jpg" alt="">
-<img src="/images/blog/waveski-surf-aux-sables/02-sables.jpg" alt="">
-<img src="/images/blog/waveski-surf-aux-sables/04-sables.jpg" alt="">
-<img src="/images/blog/waveski-surf-aux-sables/03-sables.jpg" alt="">
-<img src="/images/blog/waveski-surf-aux-sables/05-sables.jpg" alt="">
-<img src="/images/blog/waveski-surf-aux-sables/07-sables.jpg" alt="">
-<img src="/images/blog/waveski-surf-aux-sables/08-sables.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-aux-sables/01-sables.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-aux-sables/06-mont-st-michel.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-aux-sables/02-sables.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-aux-sables/04-sables.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-aux-sables/03-sables.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-aux-sables/05-sables.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-aux-sables/07-sables.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-aux-sables/08-sables.jpg" alt="">
 </div>
 </section>

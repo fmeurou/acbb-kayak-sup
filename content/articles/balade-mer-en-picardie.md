@@ -16,7 +16,7 @@ Nous étions 8 presque tous à l’heure. On accroche la remorque au camion et o
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/balade-mer-en-picardie/picardie2.jpg" alt="">
+<img src="{static}/images/blog/balade-mer-en-picardie/picardie2.jpg" alt="">
 </div>
 </section>
 
@@ -46,7 +46,7 @@ Après avoir fait une navette pour récupérer le camion, nous avons chargé pui
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/balade-mer-en-picardie/picardie4.jpg" alt="">
-<img src="/images/blog/balade-mer-en-picardie/picardie3.jpg" alt="">
+<img src="{static}/images/blog/balade-mer-en-picardie/picardie4.jpg" alt="">
+<img src="{static}/images/blog/balade-mer-en-picardie/picardie3.jpg" alt="">
 </div>
 </section>

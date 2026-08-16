@@ -16,11 +16,11 @@ Summary: Le kayak loisir à l'ACBB : découvrir la navigation en mer, en rivièr
 
 <section class="wide">
 <div class="simple_gallery">
-<img src="/images/activites/kayak-loisir-mer-et-riviere-calme/kayak-loisir-mer-500x500-0.jpg" alt="">
-<img src="/images/activites/kayak-loisir-mer-et-riviere-calme/kayak-loisir-mer-500x500-3.jpg" alt="">
-<img src="/images/activites/kayak-loisir-mer-et-riviere-calme/kayak-loisir-500x500-3.jpg" alt="">
-<img src="/images/activites/kayak-loisir-mer-et-riviere-calme/kayak-loisir-canoe-500x500-1.jpg" alt="">
-<img src="/images/activites/kayak-loisir-mer-et-riviere-calme/kayak-loisir-mer-800x800-2.jpg" alt="">
+<img src="{static}/images/activites/kayak-loisir-mer-et-riviere-calme/kayak-loisir-mer-500x500-0.jpg" alt="">
+<img src="{static}/images/activites/kayak-loisir-mer-et-riviere-calme/kayak-loisir-mer-500x500-3.jpg" alt="">
+<img src="{static}/images/activites/kayak-loisir-mer-et-riviere-calme/kayak-loisir-500x500-3.jpg" alt="">
+<img src="{static}/images/activites/kayak-loisir-mer-et-riviere-calme/kayak-loisir-canoe-500x500-1.jpg" alt="">
+<img src="{static}/images/activites/kayak-loisir-mer-et-riviere-calme/kayak-loisir-mer-800x800-2.jpg" alt="">
 </div>
 </section>
 
@@ -52,8 +52,8 @@ Aucun niveau requis.
 
 <section class="wide">
 <div class="simple_gallery">
-<img src="/images/activites/kayak-loisir-mer-et-riviere-calme/kayak-loisir-mer-800x800-1.jpg" alt="">
-<img src="/images/activites/kayak-loisir-mer-et-riviere-calme/kayak-loisir-mer-800x800-4.jpg" alt="">
+<img src="{static}/images/activites/kayak-loisir-mer-et-riviere-calme/kayak-loisir-mer-800x800-1.jpg" alt="">
+<img src="{static}/images/activites/kayak-loisir-mer-et-riviere-calme/kayak-loisir-mer-800x800-4.jpg" alt="">
 </div>
 </section>
 
@@ -92,7 +92,7 @@ Vous préférez une pratique plus dynamique ? Découvrez notre activité **Kayak
 <p>À l'ACBB, on ne vient pas seulement pagayer. On vient partager, rire, progresser ensemble.<br>
 Ici, chaque séance est un moment de convivialité, d'échange et de bonne humeur.<br>
 <strong>Un club, une ambiance, une 2e famille</strong></p>
-<a href="/pages/pourquoi-choisir-acbb.html" class="qbutton center default">POURQUOI NOUS CHOISIR ?</a>
+<a href="{filename}/pages/nous-choisir.md" class="qbutton center default">POURQUOI NOUS CHOISIR ?</a>
 </section>
 
 <section markdown="1">

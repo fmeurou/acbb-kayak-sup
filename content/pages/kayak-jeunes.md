@@ -16,11 +16,11 @@ Summary: Le Kayak Jeunes à l'ACBB : pour les 8-14 ans, apprendre à naviguer en
 
 <section class="wide">
 <div class="simple_gallery">
-<img src="/images/activites/kayak-jeunes/acbb-canoe-kayak-sup-jeunes-jeu-sur-l-eau-800x800-1.jpg" alt="">
-<img src="/images/activites/kayak-jeunes/acbb-kayak-jeunes-piscine-500x500-0.jpg" alt="">
-<img src="/images/activites/kayak-jeunes/Acbb-kayak-jeunes-co-massages-500x500-0.jpg" alt="">
-<img src="/images/activites/kayak-jeunes/acbb-kayak-jeunes-remorque-500x500-0.jpg" alt="">
-<img src="/images/activites/kayak-jeunes/Acbb-kayak-jeunes-gonflable-500x500-0.jpg" alt="">
+<img src="{static}/images/activites/kayak-jeunes/acbb-canoe-kayak-sup-jeunes-jeu-sur-l-eau-800x800-1.jpg" alt="">
+<img src="{static}/images/activites/kayak-jeunes/acbb-kayak-jeunes-piscine-500x500-0.jpg" alt="">
+<img src="{static}/images/activites/kayak-jeunes/Acbb-kayak-jeunes-co-massages-500x500-0.jpg" alt="">
+<img src="{static}/images/activites/kayak-jeunes/acbb-kayak-jeunes-remorque-500x500-0.jpg" alt="">
+<img src="{static}/images/activites/kayak-jeunes/Acbb-kayak-jeunes-gonflable-500x500-0.jpg" alt="">
 </div>
 </section>
 
@@ -51,8 +51,8 @@ Que l’on soit débutant ou déjà curieux de découvrir l’activité, chacun 
 
 <section class="wide">
 <div class="simple_gallery">
-<img src="/images/activites/kayak-jeunes/acbb-canoe-kayak-sup-jeunes-800x800-1.jpg" alt="">
-<img src="/images/activites/kayak-jeunes/acbb-canoe-kayak-jeunes-challenge-800x800-1.jpg" alt="">
+<img src="{static}/images/activites/kayak-jeunes/acbb-canoe-kayak-sup-jeunes-800x800-1.jpg" alt="">
+<img src="{static}/images/activites/kayak-jeunes/acbb-canoe-kayak-jeunes-challenge-800x800-1.jpg" alt="">
 </div>
 </section>
 
@@ -95,7 +95,7 @@ Apprendre, explorer, partager… et surtout s’amuser sur l’eau avec l’ACBB
 <p>À l'ACBB, on ne vient pas seulement pagayer. On vient partager, rire, progresser ensemble.<br>
 Ici, chaque séance est un moment de convivialité, d'échange et de bonne humeur.<br>
 <strong>Un club, une ambiance, une 2e famille</strong></p>
-<a href="/pages/pourquoi-choisir-acbb.html" class="qbutton center default">POURQUOI NOUS CHOISIR ?</a>
+<a href="{filename}/pages/nous-choisir.md" class="qbutton center default">POURQUOI NOUS CHOISIR ?</a>
 </section>
 
 <section markdown="1">

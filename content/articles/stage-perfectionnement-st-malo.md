@@ -18,12 +18,12 @@ Au programme : lecture des courants selon les marées, perfectionnement des tech
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/stage-perfectionnement-st-malo/01-st-malo-v2.jpg" alt="Stage mer à St Malo -randonnée avec l&#x27;acbb canoe-kayak et Sup">
-<img src="/images/blog/stage-perfectionnement-st-malo/02-st-malo-v2.jpg" alt="Stage mer à St Malo - Rando avec l&#x27;acbb canoe-kayak et Sup">
-<img src="/images/blog/stage-perfectionnement-st-malo/03-st-malo-v2.jpg" alt="Stage mer à St Malo - Rase cailloux avec l&#x27;acbb canoe-kayak et Sup">
-<img src="/images/blog/stage-perfectionnement-st-malo/05-st-malo-v2.jpg" alt="Stage mer à St Malo - Randonnée avec l&#x27;acbb canoe-kayak et Sup">
-<img src="/images/blog/stage-perfectionnement-st-malo/06-st-malo-V2.jpg" alt="">
-<img src="/images/blog/stage-perfectionnement-st-malo/07-st-malo-v2.jpg" alt="">
+<img src="{static}/images/blog/stage-perfectionnement-st-malo/01-st-malo-v2.jpg" alt="Stage mer à St Malo -randonnée avec l&#x27;acbb canoe-kayak et Sup">
+<img src="{static}/images/blog/stage-perfectionnement-st-malo/02-st-malo-v2.jpg" alt="Stage mer à St Malo - Rando avec l&#x27;acbb canoe-kayak et Sup">
+<img src="{static}/images/blog/stage-perfectionnement-st-malo/03-st-malo-v2.jpg" alt="Stage mer à St Malo - Rase cailloux avec l&#x27;acbb canoe-kayak et Sup">
+<img src="{static}/images/blog/stage-perfectionnement-st-malo/05-st-malo-v2.jpg" alt="Stage mer à St Malo - Randonnée avec l&#x27;acbb canoe-kayak et Sup">
+<img src="{static}/images/blog/stage-perfectionnement-st-malo/06-st-malo-V2.jpg" alt="">
+<img src="{static}/images/blog/stage-perfectionnement-st-malo/07-st-malo-v2.jpg" alt="">
 </div>
 </section>
 

@@ -16,15 +16,15 @@ Nous étions 15 adhérents de l’Acbb canoe-kayak à nous retrouver à Venise f
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/vogalonga-2026-grazie-venezia/acbb-ck-sup-00-2026-vogalonga2-2.jpg" alt="">
-<img src="/images/blog/vogalonga-2026-grazie-venezia/acbb-ck-sup-00-2026-vogalonga5-2.jpg" alt="">
-<img src="/images/blog/vogalonga-2026-grazie-venezia/acbb-ck-sup-00-2026-vogalonga10-2.jpg" alt="">
-<img src="/images/blog/vogalonga-2026-grazie-venezia/acbb-ck-sup-00-2026-vogalonga8-2.jpg" alt="">
-<img src="/images/blog/vogalonga-2026-grazie-venezia/acbb-ck-sup-00-2026-vogalonga3-2.jpg" alt="">
-<img src="/images/blog/vogalonga-2026-grazie-venezia/acbb-ck-sup-00-2026-vogalonga4-2.jpg" alt="">
-<img src="/images/blog/vogalonga-2026-grazie-venezia/acbb-ck-sup-00-2026-vogalonga7-2.jpg" alt="">
-<img src="/images/blog/vogalonga-2026-grazie-venezia/acbb-ck-sup-00-2026-vogalonga6-2.jpg" alt="">
-<img src="/images/blog/vogalonga-2026-grazie-venezia/acbb-ck-sup-00-2026-vogalonga9-2.jpg" alt="">
+<img src="{static}/images/blog/vogalonga-2026-grazie-venezia/acbb-ck-sup-00-2026-vogalonga2-2.jpg" alt="">
+<img src="{static}/images/blog/vogalonga-2026-grazie-venezia/acbb-ck-sup-00-2026-vogalonga5-2.jpg" alt="">
+<img src="{static}/images/blog/vogalonga-2026-grazie-venezia/acbb-ck-sup-00-2026-vogalonga10-2.jpg" alt="">
+<img src="{static}/images/blog/vogalonga-2026-grazie-venezia/acbb-ck-sup-00-2026-vogalonga8-2.jpg" alt="">
+<img src="{static}/images/blog/vogalonga-2026-grazie-venezia/acbb-ck-sup-00-2026-vogalonga3-2.jpg" alt="">
+<img src="{static}/images/blog/vogalonga-2026-grazie-venezia/acbb-ck-sup-00-2026-vogalonga4-2.jpg" alt="">
+<img src="{static}/images/blog/vogalonga-2026-grazie-venezia/acbb-ck-sup-00-2026-vogalonga7-2.jpg" alt="">
+<img src="{static}/images/blog/vogalonga-2026-grazie-venezia/acbb-ck-sup-00-2026-vogalonga6-2.jpg" alt="">
+<img src="{static}/images/blog/vogalonga-2026-grazie-venezia/acbb-ck-sup-00-2026-vogalonga9-2.jpg" alt="">
 </div>
 </section>
 
@@ -42,6 +42,6 @@ Des souvenirs plein la tête… Un immense bonheur d’avoir vécu cette expéri
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/vogalonga-2026-grazie-venezia/acbb-ck-sup-00-2026-vogalonga4-2.jpg" alt="">
+<img src="{static}/images/blog/vogalonga-2026-grazie-venezia/acbb-ck-sup-00-2026-vogalonga4-2.jpg" alt="">
 </div>
 </section>

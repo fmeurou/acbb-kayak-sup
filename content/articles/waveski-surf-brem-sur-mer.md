@@ -20,18 +20,18 @@ Déjeuner ensoleillé dans une ancienne cabane ostréicole, réhabilitée en bar
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/waveski-surf-brem-sur-mer/8-Sables-2022-150x150.jpg" alt="">
-<img src="/images/blog/waveski-surf-brem-sur-mer/13-Sables-2022-150x150.jpg" alt="">
-<img src="/images/blog/waveski-surf-brem-sur-mer/2-Sables-2022-150x150.jpg" alt="">
-<img src="/images/blog/waveski-surf-brem-sur-mer/11-Sables-2022-150x150.jpg" alt="">
-<img src="/images/blog/waveski-surf-brem-sur-mer/5-Sables-2022-150x150.jpg" alt="">
-<img src="/images/blog/waveski-surf-brem-sur-mer/6-Sables-2022-150x150.jpg" alt="">
-<img src="/images/blog/waveski-surf-brem-sur-mer/7-Sables-2022-150x150.jpg" alt="">
-<img src="/images/blog/waveski-surf-brem-sur-mer/9-Sables-2022-150x150.jpg" alt="">
-<img src="/images/blog/waveski-surf-brem-sur-mer/14-Sables-2022-150x150.jpg" alt="">
-<img src="/images/blog/waveski-surf-brem-sur-mer/15-Sables-2022-150x150.jpg" alt="">
-<img src="/images/blog/waveski-surf-brem-sur-mer/16-Sables-2022-1-150x150.jpg" alt="">
-<img src="/images/blog/waveski-surf-brem-sur-mer/10-Sables-2022-150x150.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-brem-sur-mer/8-Sables-2022-150x150.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-brem-sur-mer/13-Sables-2022-150x150.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-brem-sur-mer/2-Sables-2022-150x150.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-brem-sur-mer/11-Sables-2022-150x150.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-brem-sur-mer/5-Sables-2022-150x150.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-brem-sur-mer/6-Sables-2022-150x150.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-brem-sur-mer/7-Sables-2022-150x150.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-brem-sur-mer/9-Sables-2022-150x150.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-brem-sur-mer/14-Sables-2022-150x150.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-brem-sur-mer/15-Sables-2022-150x150.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-brem-sur-mer/16-Sables-2022-1-150x150.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-brem-sur-mer/10-Sables-2022-150x150.jpg" alt="">
 </div>
 </section>
 

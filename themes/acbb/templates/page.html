@@ -3,7 +3,7 @@
 {% block title %}{{ page.title|striptags }} - {{ SITENAME }}{% endblock %}
 
 {% block hero %}
-<div class="hero" style="height:320px;background-image:url('{{ page.image if page.image else SITEURL + '/theme/images/hero-default-bg.jpg' }}');"></div>
+<div class="hero" style="height:320px;background-image:url('{{ (SITEURL + page.image) if page.image else (SITEURL + '/theme/images/hero-default-bg.jpg') }}');"></div>
 {% endblock %}
 
 {% block content %}

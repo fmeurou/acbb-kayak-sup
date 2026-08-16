@@ -22,19 +22,19 @@ Affronter les rapides et les trains de vagues, hurler de joie dans le vacarme as
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/stage-cdck926-durance-2021/2-durance-2021.jpg" alt="">
-<img src="/images/blog/stage-cdck926-durance-2021/3-durance-2021.jpg" alt="">
-<img src="/images/blog/stage-cdck926-durance-2021/4-durance-2021.jpg" alt="">
-<img src="/images/blog/stage-cdck926-durance-2021/6-durance-2021.jpg" alt="">
-<img src="/images/blog/stage-cdck926-durance-2021/7-durance-2021.jpg" alt="">
-<img src="/images/blog/stage-cdck926-durance-2021/8-durance-2021.jpg" alt="">
-<img src="/images/blog/stage-cdck926-durance-2021/9-durance-2021.jpg" alt="">
-<img src="/images/blog/stage-cdck926-durance-2021/10-durance-2021.jpg" alt="">
-<img src="/images/blog/stage-cdck926-durance-2021/11-durance-2021.jpg" alt="">
-<img src="/images/blog/stage-cdck926-durance-2021/12-durance-2021.jpg" alt="">
-<img src="/images/blog/stage-cdck926-durance-2021/13-durance-2021.jpg" alt="">
-<img src="/images/blog/stage-cdck926-durance-2021/14-durance-2021.jpg" alt="">
-<img src="/images/blog/stage-cdck926-durance-2021/15-durance-2021.jpg" alt="">
-<img src="/images/blog/stage-cdck926-durance-2021/5-durance-2021.jpg" alt="">
+<img src="{static}/images/blog/stage-cdck926-durance-2021/2-durance-2021.jpg" alt="">
+<img src="{static}/images/blog/stage-cdck926-durance-2021/3-durance-2021.jpg" alt="">
+<img src="{static}/images/blog/stage-cdck926-durance-2021/4-durance-2021.jpg" alt="">
+<img src="{static}/images/blog/stage-cdck926-durance-2021/6-durance-2021.jpg" alt="">
+<img src="{static}/images/blog/stage-cdck926-durance-2021/7-durance-2021.jpg" alt="">
+<img src="{static}/images/blog/stage-cdck926-durance-2021/8-durance-2021.jpg" alt="">
+<img src="{static}/images/blog/stage-cdck926-durance-2021/9-durance-2021.jpg" alt="">
+<img src="{static}/images/blog/stage-cdck926-durance-2021/10-durance-2021.jpg" alt="">
+<img src="{static}/images/blog/stage-cdck926-durance-2021/11-durance-2021.jpg" alt="">
+<img src="{static}/images/blog/stage-cdck926-durance-2021/12-durance-2021.jpg" alt="">
+<img src="{static}/images/blog/stage-cdck926-durance-2021/13-durance-2021.jpg" alt="">
+<img src="{static}/images/blog/stage-cdck926-durance-2021/14-durance-2021.jpg" alt="">
+<img src="{static}/images/blog/stage-cdck926-durance-2021/15-durance-2021.jpg" alt="">
+<img src="{static}/images/blog/stage-cdck926-durance-2021/5-durance-2021.jpg" alt="">
 </div>
 </section>

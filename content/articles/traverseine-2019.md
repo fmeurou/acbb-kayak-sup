@@ -20,9 +20,9 @@ De l’autre côté à Sèvres où se sont élancés les compétiteurs et les gr
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/traverseine-2019/traverseine2019-12.jpg" alt="">
-<img src="/images/blog/traverseine-2019/traverseine2019-11.jpg" alt="">
-<img src="/images/blog/traverseine-2019/traverseine2019-6.jpg" alt="">
+<img src="{static}/images/blog/traverseine-2019/traverseine2019-12.jpg" alt="">
+<img src="{static}/images/blog/traverseine-2019/traverseine2019-11.jpg" alt="">
+<img src="{static}/images/blog/traverseine-2019/traverseine2019-6.jpg" alt="">
 </div>
 </section>
 

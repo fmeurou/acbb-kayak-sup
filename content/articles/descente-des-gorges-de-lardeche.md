@@ -26,22 +26,22 @@ Le 2 jour : Bivouac de Gournier à Mi parcours /barbecue
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/descente-des-gorges-de-lardeche/ardeche18-1024x768.jpg" alt="">
-<img src="/images/blog/descente-des-gorges-de-lardeche/ardeche14-1024x768.jpg" alt="">
-<img src="/images/blog/descente-des-gorges-de-lardeche/ardeche11-1024x768.jpg" alt="">
-<img src="/images/blog/descente-des-gorges-de-lardeche/ardeche13-1024x768.jpg" alt="">
-<img src="/images/blog/descente-des-gorges-de-lardeche/ardeche9-1024x768.jpg" alt="">
-<img src="/images/blog/descente-des-gorges-de-lardeche/ardeche8-1024x768.jpg" alt="">
-<img src="/images/blog/descente-des-gorges-de-lardeche/ardeche7-1024x768.jpg" alt="">
-<img src="/images/blog/descente-des-gorges-de-lardeche/ardeche12-1024x768.jpg" alt="">
-<img src="/images/blog/descente-des-gorges-de-lardeche/ardeche16-768x1024.jpg" alt="">
-<img src="/images/blog/descente-des-gorges-de-lardeche/ardeche15-1024x768.jpg" alt="">
-<img src="/images/blog/descente-des-gorges-de-lardeche/ardeche17-1024x768.jpg" alt="">
-<img src="/images/blog/descente-des-gorges-de-lardeche/ardeche6-1024x768.jpg" alt="">
-<img src="/images/blog/descente-des-gorges-de-lardeche/ardeche5-1024x768.jpg" alt="">
-<img src="/images/blog/descente-des-gorges-de-lardeche/ardeche4-1024x768.jpg" alt="">
-<img src="/images/blog/descente-des-gorges-de-lardeche/ardeche3-1024x768.jpg" alt="">
-<img src="/images/blog/descente-des-gorges-de-lardeche/ardeche2-1024x768.jpg" alt="">
-<img src="/images/blog/descente-des-gorges-de-lardeche/ardeche1-1024x768.jpg" alt="">
+<img src="{static}/images/blog/descente-des-gorges-de-lardeche/ardeche18-1024x768.jpg" alt="">
+<img src="{static}/images/blog/descente-des-gorges-de-lardeche/ardeche14-1024x768.jpg" alt="">
+<img src="{static}/images/blog/descente-des-gorges-de-lardeche/ardeche11-1024x768.jpg" alt="">
+<img src="{static}/images/blog/descente-des-gorges-de-lardeche/ardeche13-1024x768.jpg" alt="">
+<img src="{static}/images/blog/descente-des-gorges-de-lardeche/ardeche9-1024x768.jpg" alt="">
+<img src="{static}/images/blog/descente-des-gorges-de-lardeche/ardeche8-1024x768.jpg" alt="">
+<img src="{static}/images/blog/descente-des-gorges-de-lardeche/ardeche7-1024x768.jpg" alt="">
+<img src="{static}/images/blog/descente-des-gorges-de-lardeche/ardeche12-1024x768.jpg" alt="">
+<img src="{static}/images/blog/descente-des-gorges-de-lardeche/ardeche16-768x1024.jpg" alt="">
+<img src="{static}/images/blog/descente-des-gorges-de-lardeche/ardeche15-1024x768.jpg" alt="">
+<img src="{static}/images/blog/descente-des-gorges-de-lardeche/ardeche17-1024x768.jpg" alt="">
+<img src="{static}/images/blog/descente-des-gorges-de-lardeche/ardeche6-1024x768.jpg" alt="">
+<img src="{static}/images/blog/descente-des-gorges-de-lardeche/ardeche5-1024x768.jpg" alt="">
+<img src="{static}/images/blog/descente-des-gorges-de-lardeche/ardeche4-1024x768.jpg" alt="">
+<img src="{static}/images/blog/descente-des-gorges-de-lardeche/ardeche3-1024x768.jpg" alt="">
+<img src="{static}/images/blog/descente-des-gorges-de-lardeche/ardeche2-1024x768.jpg" alt="">
+<img src="{static}/images/blog/descente-des-gorges-de-lardeche/ardeche1-1024x768.jpg" alt="">
 </div>
 </section>

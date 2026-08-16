@@ -22,11 +22,11 @@ L’une des raisons du grand succès de la Vogalonga est que cette course et ouv
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/44e-vogalonga-2018-venise/venise2-1024x768.jpg" alt="">
-<img src="/images/blog/44e-vogalonga-2018-venise/venise3-1024x768.jpg" alt="">
-<img src="/images/blog/44e-vogalonga-2018-venise/venise5-1024x768.jpg" alt="">
-<img src="/images/blog/44e-vogalonga-2018-venise/venise6-1024x768.jpg" alt="">
-<img src="/images/blog/44e-vogalonga-2018-venise/venise10-1024x683.jpg" alt="">
-<img src="/images/blog/44e-vogalonga-2018-venise/venise1-1024x1024.jpeg" alt="">
+<img src="{static}/images/blog/44e-vogalonga-2018-venise/venise2-1024x768.jpg" alt="">
+<img src="{static}/images/blog/44e-vogalonga-2018-venise/venise3-1024x768.jpg" alt="">
+<img src="{static}/images/blog/44e-vogalonga-2018-venise/venise5-1024x768.jpg" alt="">
+<img src="{static}/images/blog/44e-vogalonga-2018-venise/venise6-1024x768.jpg" alt="">
+<img src="{static}/images/blog/44e-vogalonga-2018-venise/venise10-1024x683.jpg" alt="">
+<img src="{static}/images/blog/44e-vogalonga-2018-venise/venise1-1024x1024.jpeg" alt="">
 </div>
 </section>

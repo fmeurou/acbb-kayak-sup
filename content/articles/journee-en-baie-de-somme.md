@@ -16,10 +16,10 @@ Départ sur l’eau vers 11h15. On descend la Somme avec l’aide du courant jus
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/journee-en-baie-de-somme/00-baie-somme.jpg" alt="">
-<img src="/images/blog/journee-en-baie-de-somme/03-baie-somme.jpg" alt="">
-<img src="/images/blog/journee-en-baie-de-somme/04-baie-somme.jpg" alt="">
-<img src="/images/blog/journee-en-baie-de-somme/05-baie-somme.jpg" alt="">
+<img src="{static}/images/blog/journee-en-baie-de-somme/00-baie-somme.jpg" alt="">
+<img src="{static}/images/blog/journee-en-baie-de-somme/03-baie-somme.jpg" alt="">
+<img src="{static}/images/blog/journee-en-baie-de-somme/04-baie-somme.jpg" alt="">
+<img src="{static}/images/blog/journee-en-baie-de-somme/05-baie-somme.jpg" alt="">
 </div>
 </section>
 

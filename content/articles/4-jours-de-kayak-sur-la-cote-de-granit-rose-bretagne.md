@@ -18,17 +18,17 @@ Bretagne oblige, les plus joueurs se-sont amusés à faire du rase cailloux .
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/4-jours-de-kayak-sur-la-cote-de-granit-rose-bretagne/14-COTE-GRANIT-ROSE-KAYAK.jpg" alt="">
-<img src="/images/blog/4-jours-de-kayak-sur-la-cote-de-granit-rose-bretagne/15-COTE-GRANIT-ROSE-KAYAK.jpg" alt="">
-<img src="/images/blog/4-jours-de-kayak-sur-la-cote-de-granit-rose-bretagne/00-COTE-GRANIT-ROSE-KAYAK.jpg" alt="">
-<img src="/images/blog/4-jours-de-kayak-sur-la-cote-de-granit-rose-bretagne/01-COTE-GRANIT-ROSE-KAYAK.jpg" alt="">
-<img src="/images/blog/4-jours-de-kayak-sur-la-cote-de-granit-rose-bretagne/02-COTE-GRANIT-ROSE-KAYAK.jpg" alt="">
-<img src="/images/blog/4-jours-de-kayak-sur-la-cote-de-granit-rose-bretagne/06-COTE-GRANIT-ROSE-KAYAK.jpg" alt="">
-<img src="/images/blog/4-jours-de-kayak-sur-la-cote-de-granit-rose-bretagne/07-COTE-GRANIT-ROSE-KAYAK.jpg" alt="">
-<img src="/images/blog/4-jours-de-kayak-sur-la-cote-de-granit-rose-bretagne/08-COTE-GRANIT-ROSE-KAYAK.jpg" alt="">
-<img src="/images/blog/4-jours-de-kayak-sur-la-cote-de-granit-rose-bretagne/09-COTE-GRANIT-ROSE-KAYAK.jpg" alt="">
-<img src="/images/blog/4-jours-de-kayak-sur-la-cote-de-granit-rose-bretagne/12-COTE-GRANIT-ROSE-KAYAK.jpg" alt="">
-<img src="/images/blog/4-jours-de-kayak-sur-la-cote-de-granit-rose-bretagne/05-COTE-GRANIT-ROSE-KAYAK.jpg" alt="">
+<img src="{static}/images/blog/4-jours-de-kayak-sur-la-cote-de-granit-rose-bretagne/14-COTE-GRANIT-ROSE-KAYAK.jpg" alt="">
+<img src="{static}/images/blog/4-jours-de-kayak-sur-la-cote-de-granit-rose-bretagne/15-COTE-GRANIT-ROSE-KAYAK.jpg" alt="">
+<img src="{static}/images/blog/4-jours-de-kayak-sur-la-cote-de-granit-rose-bretagne/00-COTE-GRANIT-ROSE-KAYAK.jpg" alt="">
+<img src="{static}/images/blog/4-jours-de-kayak-sur-la-cote-de-granit-rose-bretagne/01-COTE-GRANIT-ROSE-KAYAK.jpg" alt="">
+<img src="{static}/images/blog/4-jours-de-kayak-sur-la-cote-de-granit-rose-bretagne/02-COTE-GRANIT-ROSE-KAYAK.jpg" alt="">
+<img src="{static}/images/blog/4-jours-de-kayak-sur-la-cote-de-granit-rose-bretagne/06-COTE-GRANIT-ROSE-KAYAK.jpg" alt="">
+<img src="{static}/images/blog/4-jours-de-kayak-sur-la-cote-de-granit-rose-bretagne/07-COTE-GRANIT-ROSE-KAYAK.jpg" alt="">
+<img src="{static}/images/blog/4-jours-de-kayak-sur-la-cote-de-granit-rose-bretagne/08-COTE-GRANIT-ROSE-KAYAK.jpg" alt="">
+<img src="{static}/images/blog/4-jours-de-kayak-sur-la-cote-de-granit-rose-bretagne/09-COTE-GRANIT-ROSE-KAYAK.jpg" alt="">
+<img src="{static}/images/blog/4-jours-de-kayak-sur-la-cote-de-granit-rose-bretagne/12-COTE-GRANIT-ROSE-KAYAK.jpg" alt="">
+<img src="{static}/images/blog/4-jours-de-kayak-sur-la-cote-de-granit-rose-bretagne/05-COTE-GRANIT-ROSE-KAYAK.jpg" alt="">
 </div>
 </section>
 

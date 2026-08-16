@@ -15,75 +15,75 @@ Découvrez toutes les pratiques proposées par l'ACBB Canoë-Kayak : du loisir �
 
 <article class="activity-card split-narrow">
 <figure>
-<img src="/images/activites/kayak-loisir.jpg" alt="Kayak Loisir mer et rivière calme">
+<img src="{static}/images/activites/kayak-loisir.jpg" alt="Kayak Loisir mer et rivière calme">
 </figure>
 <div>
 <h3><strong>Kayak Loisir mer et rivière calme</strong></h3>
 <p><strong><em>Le plaisir de naviguer, explorer et partager</em></strong></p>
 <p>Le kayak loisir est idéal pour découvrir la pratique, progresser à votre rythme et profiter d'un moment convivial sur l'eau. Sorties en rivière, randonnées en mer, balades sur la Seine : une activité accessible, variée et ouverte à tous.</p>
-<a href="/pages/kayak-loisir-mer-et-riviere-calme.html" class="qbutton default">DÉCOUVRIR LE KAYAK LOISIR</a>
+<a href="{filename}/pages/kayak-loisir-mer-et-riviere-calme.md" class="qbutton default">DÉCOUVRIR LE KAYAK LOISIR</a>
 </div>
 </article>
 
 <article class="activity-card split-narrow">
 <figure>
-<img src="/images/activites/sup.jpg" alt="Stand Up Paddle ACBB">
+<img src="{static}/images/activites/sup.jpg" alt="Stand Up Paddle ACBB">
 </figure>
 <div>
 <h3><strong>Stand Up Paddle (SUP) – Loisir &amp; Compétition</strong></h3>
 <p><strong><em>Au fil de l'eau, en douceur ou en performance</em></strong></p>
 <p>Le Stand Up Paddle est une pratique accessible, fun et complète. Que vous souhaitiez vous détendre, vous entraîner ou participer à des compétitions, le SUP s'adapte à toutes les envies.</p>
-<a href="/pages/stand-up-paddle.html" class="qbutton default">DÉCOUVRIR LE STAND UP PADDLE</a>
+<a href="{filename}/pages/stand-up-paddle.md" class="qbutton default">DÉCOUVRIR LE STAND UP PADDLE</a>
 <p>Des sessions libres pour les adhérents sont prévues tout au long de l'année par des ouvreurs bénévoles (adhérents confirmés uniquement). <a href="https://www.acbb-canoe-kayak.fr/evenements/categorie/paddle/"><strong>[Calendrier des sessions]</strong></a></p>
 </div>
 </article>
 
 <article class="activity-card split-narrow">
 <figure>
-<img src="/images/activites/kayak-jeunes.jpg" alt="Kayak Jeunes ACBB">
+<img src="{static}/images/activites/kayak-jeunes.jpg" alt="Kayak Jeunes ACBB">
 </figure>
 <div>
 <h3><strong>Kayak Jeunes – 8 à 14 ans</strong></h3>
 <p><strong><em>Apprendre, progresser, s'amuser</em></strong></p>
 <p>Une activité encadrée, ludique et sécurisée pour les jeunes. Au programme : découverte du kayak, jeux, progression technique, sorties et esprit d'équipe.</p>
-<a href="/pages/kayak-jeunes.html" class="qbutton default">DÉCOUVRIR LE KAYAK JEUNES</a>
+<a href="{filename}/pages/kayak-jeunes.md" class="qbutton default">DÉCOUVRIR LE KAYAK JEUNES</a>
 </div>
 </article>
 
 <article class="activity-card split-narrow">
 <figure>
-<img src="/images/activites/kayak-riviere.jpg" alt="Kayak Rivière ACBB">
+<img src="{static}/images/activites/kayak-riviere.jpg" alt="Kayak Rivière ACBB">
 </figure>
 <div>
 <h3><strong>Le kayak rivière – Sensations &amp; Eau vive</strong></h3>
 <p><strong><em>Le plein d'émotions en toute sécurité</em></strong></p>
 <p>Pour ceux qui aiment l'eau vive, les rapides et les défis techniques. Encadré par nos coachs diplômés, vous apprendrez à maîtriser votre embarcation dans un environnement dynamique et stimulant.</p>
 <p>Vous apprendrez de nombreux gestes techniques : déplacement latéral, appuis, circulaire, gîte, esquimautage…</p>
-<a href="/pages/kayak-riviere.html" class="qbutton default">DÉCOUVRIR LE KAYAK RIVIÈRE</a>
+<a href="{filename}/pages/kayak-riviere.md" class="qbutton default">DÉCOUVRIR LE KAYAK RIVIÈRE</a>
 </div>
 </article>
 
 <article class="activity-card split-narrow">
 <figure>
-<img src="/images/activites/kayak-competition.jpg" alt="Kayak Compétition ACBB">
+<img src="{static}/images/activites/kayak-competition.jpg" alt="Kayak Compétition ACBB">
 </figure>
 <div>
 <h3><strong>Le kayak compétition – Course en ligne</strong></h3>
 <p><strong><em>L'adrénaline de la performance</em></strong></p>
 <p>Entraînements réguliers, progression technique, esprit d'équipe et compétitions officielles : la course en ligne est la discipline historique du club. Accessible aux jeunes comme aux adultes motivés.</p>
-<a href="/pages/kayak-competition-course-en-ligne.html" class="qbutton default">DÉCOUVRIR LE KAYAK COMPÉTITION</a>
+<a href="{filename}/pages/kayak-competition-course-en-ligne.md" class="qbutton default">DÉCOUVRIR LE KAYAK COMPÉTITION</a>
 </div>
 </article>
 
 <article class="activity-card split-narrow">
 <figure>
-<img src="/images/activites/kayak-polo.jpg" alt="Kayak Polo ACBB">
+<img src="{static}/images/activites/kayak-polo.jpg" alt="Kayak Polo ACBB">
 </figure>
 <div>
 <h3><strong>Le kayak Polo – Sport collectif &amp; engagement</strong></h3>
 <p><strong><em>Un sport spectaculaire, fun et stratégique</em></strong></p>
 <p>Le kayak polo combine technique, vitesse, esprit d'équipe et intensité. Une activité dynamique, accessible dès l'adolescence, idéale pour ceux qui aiment les sports collectifs.</p>
-<a href="/pages/kayak-polo.html" class="qbutton default">DÉCOUVRIR LE KAYAK POLO</a>
+<a href="{filename}/pages/kayak-polo.md" class="qbutton default">DÉCOUVRIR LE KAYAK POLO</a>
 </div>
 </article>
 
@@ -106,7 +106,7 @@ Par ailleurs, la section peut utiliser deux lignes d'eau dans le grand bassin po
 <p>À l'ACBB, on ne vient pas seulement pagayer. On vient partager, rire, progresser ensemble.<br>
 Ici, chaque séance est un moment de convivialité, d'échange et de bonne humeur.<br>
 <strong>Un club, une ambiance, une 2e famille.</strong></p>
-<a href="/pages/pourquoi-choisir-acbb.html" class="qbutton center default">POURQUOI NOUS CHOISIR ?</a>
+<a href="{filename}/pages/nous-choisir.md" class="qbutton center default">POURQUOI NOUS CHOISIR ?</a>
 </section>
 
 <section markdown="1">

@@ -14,12 +14,12 @@ Entre vents et vagues immersives… 9 participants de l’acbb ont réussi à pa
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/stage-mer-st-malo/04-st-malo.jpg" alt="">
-<img src="/images/blog/stage-mer-st-malo/01-st-malo.jpg" alt="">
-<img src="/images/blog/stage-mer-st-malo/02-st-malo.jpg" alt="">
-<img src="/images/blog/stage-mer-st-malo/03-st-malo.jpg" alt="">
-<img src="/images/blog/stage-mer-st-malo/05-st-malo.jpg" alt="">
-<img src="/images/blog/stage-mer-st-malo/06-st-malo.jpg" alt="">
+<img src="{static}/images/blog/stage-mer-st-malo/04-st-malo.jpg" alt="">
+<img src="{static}/images/blog/stage-mer-st-malo/01-st-malo.jpg" alt="">
+<img src="{static}/images/blog/stage-mer-st-malo/02-st-malo.jpg" alt="">
+<img src="{static}/images/blog/stage-mer-st-malo/03-st-malo.jpg" alt="">
+<img src="{static}/images/blog/stage-mer-st-malo/05-st-malo.jpg" alt="">
+<img src="{static}/images/blog/stage-mer-st-malo/06-st-malo.jpg" alt="">
 </div>
 </section>
 

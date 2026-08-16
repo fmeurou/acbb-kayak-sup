@@ -18,20 +18,20 @@ La candidature de Paris 2024 a mis les petits plats dans les grands pour fêter 
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/soutien-candidature-paris-2024/paris2024-2-1024x686.jpg" alt="">
-<img src="/images/blog/soutien-candidature-paris-2024/paris2024-1-1024x686.jpg" alt="">
-<img src="/images/blog/soutien-candidature-paris-2024/paris2024-6-1024x686.jpg" alt="">
-<img src="/images/blog/soutien-candidature-paris-2024/paris2024-4a-685x1024.jpg" alt="">
-<img src="/images/blog/soutien-candidature-paris-2024/paris2024-4-685x1024.jpg" alt="">
-<img src="/images/blog/soutien-candidature-paris-2024/paris2024-3-685x1024.jpg" alt="">
-<img src="/images/blog/soutien-candidature-paris-2024/paris2024-5-2-1024x686.jpg" alt="">
-<img src="/images/blog/soutien-candidature-paris-2024/paris2024-12-1024x686.jpg" alt="">
-<img src="/images/blog/soutien-candidature-paris-2024/paris2024-11-1024x686.jpg" alt="">
-<img src="/images/blog/soutien-candidature-paris-2024/paris2024-10-1024x686.jpg" alt="">
-<img src="/images/blog/soutien-candidature-paris-2024/paris2024-9-1024x686.jpg" alt="">
-<img src="/images/blog/soutien-candidature-paris-2024/paris2024-8-1024x686.jpg" alt="">
-<img src="/images/blog/soutien-candidature-paris-2024/paris2024-15-1024x768.jpg" alt="">
-<img src="/images/blog/soutien-candidature-paris-2024/paris2024-14-1024x686.jpg" alt="">
-<img src="/images/blog/soutien-candidature-paris-2024/paris2024-13-1024x686.jpg" alt="">
+<img src="{static}/images/blog/soutien-candidature-paris-2024/paris2024-2-1024x686.jpg" alt="">
+<img src="{static}/images/blog/soutien-candidature-paris-2024/paris2024-1-1024x686.jpg" alt="">
+<img src="{static}/images/blog/soutien-candidature-paris-2024/paris2024-6-1024x686.jpg" alt="">
+<img src="{static}/images/blog/soutien-candidature-paris-2024/paris2024-4a-685x1024.jpg" alt="">
+<img src="{static}/images/blog/soutien-candidature-paris-2024/paris2024-4-685x1024.jpg" alt="">
+<img src="{static}/images/blog/soutien-candidature-paris-2024/paris2024-3-685x1024.jpg" alt="">
+<img src="{static}/images/blog/soutien-candidature-paris-2024/paris2024-5-2-1024x686.jpg" alt="">
+<img src="{static}/images/blog/soutien-candidature-paris-2024/paris2024-12-1024x686.jpg" alt="">
+<img src="{static}/images/blog/soutien-candidature-paris-2024/paris2024-11-1024x686.jpg" alt="">
+<img src="{static}/images/blog/soutien-candidature-paris-2024/paris2024-10-1024x686.jpg" alt="">
+<img src="{static}/images/blog/soutien-candidature-paris-2024/paris2024-9-1024x686.jpg" alt="">
+<img src="{static}/images/blog/soutien-candidature-paris-2024/paris2024-8-1024x686.jpg" alt="">
+<img src="{static}/images/blog/soutien-candidature-paris-2024/paris2024-15-1024x768.jpg" alt="">
+<img src="{static}/images/blog/soutien-candidature-paris-2024/paris2024-14-1024x686.jpg" alt="">
+<img src="{static}/images/blog/soutien-candidature-paris-2024/paris2024-13-1024x686.jpg" alt="">
 </div>
 </section>

@@ -18,10 +18,10 @@ Au programme, descentes de bassin en kayak, nage en eaux vives, des traversées 
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/eaux-vives-saint-pierre-de-boeuf/IMG-20220528-WA0009-150x150.jpg" alt="">
-<img src="/images/blog/eaux-vives-saint-pierre-de-boeuf/IMG-20220528-WA0005-150x150.jpg" alt="">
-<img src="/images/blog/eaux-vives-saint-pierre-de-boeuf/20220527_172806-150x150.jpg" alt="">
-<img src="/images/blog/eaux-vives-saint-pierre-de-boeuf/IMG_20220527_174404_087-150x150.webp" alt="">
-<img src="/images/blog/eaux-vives-saint-pierre-de-boeuf/IMG_20220527_174404_259-150x150.webp" alt="">
+<img src="{static}/images/blog/eaux-vives-saint-pierre-de-boeuf/IMG-20220528-WA0009-150x150.jpg" alt="">
+<img src="{static}/images/blog/eaux-vives-saint-pierre-de-boeuf/IMG-20220528-WA0005-150x150.jpg" alt="">
+<img src="{static}/images/blog/eaux-vives-saint-pierre-de-boeuf/20220527_172806-150x150.jpg" alt="">
+<img src="{static}/images/blog/eaux-vives-saint-pierre-de-boeuf/IMG_20220527_174404_087-150x150.webp" alt="">
+<img src="{static}/images/blog/eaux-vives-saint-pierre-de-boeuf/IMG_20220527_174404_259-150x150.webp" alt="">
 </div>
 </section>

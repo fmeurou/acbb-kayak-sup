@@ -44,24 +44,24 @@ A noter aussi la jolie 6e place pour le K4HC 1000m de Guillaume Chapuis / Matté
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/championnat-de-france/cdf-course4-1024x682.jpg" alt="">
-<img src="/images/blog/championnat-de-france/cdf-williametbarnabe.jpg" alt="">
-<img src="/images/blog/championnat-de-france/cdf-anaisbis.jpg" alt="">
-<img src="/images/blog/championnat-de-france/cdf-yann.jpg" alt="">
-<img src="/images/blog/championnat-de-france/cdf-course6-1024x682.jpg" alt="">
-<img src="/images/blog/championnat-de-france/cdf-jeunes.jpg" alt="">
-<img src="/images/blog/championnat-de-france/cdf-course2.jpg" alt="">
-<img src="/images/blog/championnat-de-france/cdf-course5-1024x683.jpg" alt="">
-<img src="/images/blog/championnat-de-france/cdf-course13.jpg" alt="">
-<img src="/images/blog/championnat-de-france/cdf-k4veterans.jpg" alt="">
-<img src="/images/blog/championnat-de-france/cdf-veteranes.jpg" alt="">
-<img src="/images/blog/championnat-de-france/cdf-course7-1024x683.jpg" alt="">
-<img src="/images/blog/championnat-de-france/cdf-course8-1024x683.jpg" alt="">
-<img src="/images/blog/championnat-de-france/cdf-course11-1024x682.jpg" alt="">
-<img src="/images/blog/championnat-de-france/cdf-eric.jpg" alt="">
-<img src="/images/blog/championnat-de-france/cdf-anaisbis2.jpg" alt="">
-<img src="/images/blog/championnat-de-france/cdf-anaisbis3.jpg" alt="">
-<img src="/images/blog/championnat-de-france/cdf-course3-1024x683.jpg" alt="">
-<img src="/images/blog/championnat-de-france/cdf-yannetyvan.jpg" alt="">
+<img src="{static}/images/blog/championnat-de-france/cdf-course4-1024x682.jpg" alt="">
+<img src="{static}/images/blog/championnat-de-france/cdf-williametbarnabe.jpg" alt="">
+<img src="{static}/images/blog/championnat-de-france/cdf-anaisbis.jpg" alt="">
+<img src="{static}/images/blog/championnat-de-france/cdf-yann.jpg" alt="">
+<img src="{static}/images/blog/championnat-de-france/cdf-course6-1024x682.jpg" alt="">
+<img src="{static}/images/blog/championnat-de-france/cdf-jeunes.jpg" alt="">
+<img src="{static}/images/blog/championnat-de-france/cdf-course2.jpg" alt="">
+<img src="{static}/images/blog/championnat-de-france/cdf-course5-1024x683.jpg" alt="">
+<img src="{static}/images/blog/championnat-de-france/cdf-course13.jpg" alt="">
+<img src="{static}/images/blog/championnat-de-france/cdf-k4veterans.jpg" alt="">
+<img src="{static}/images/blog/championnat-de-france/cdf-veteranes.jpg" alt="">
+<img src="{static}/images/blog/championnat-de-france/cdf-course7-1024x683.jpg" alt="">
+<img src="{static}/images/blog/championnat-de-france/cdf-course8-1024x683.jpg" alt="">
+<img src="{static}/images/blog/championnat-de-france/cdf-course11-1024x682.jpg" alt="">
+<img src="{static}/images/blog/championnat-de-france/cdf-eric.jpg" alt="">
+<img src="{static}/images/blog/championnat-de-france/cdf-anaisbis2.jpg" alt="">
+<img src="{static}/images/blog/championnat-de-france/cdf-anaisbis3.jpg" alt="">
+<img src="{static}/images/blog/championnat-de-france/cdf-course3-1024x683.jpg" alt="">
+<img src="{static}/images/blog/championnat-de-france/cdf-yannetyvan.jpg" alt="">
 </div>
 </section>

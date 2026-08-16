@@ -17,11 +17,11 @@ Summary: La course en ligne à l'ACBB : la discipline historique du club, entre 
 
 <section class="wide">
 <div class="simple_gallery">
-<img src="/images/activites/kayak-competition-course-en-ligne/acbb-canoe-kayak-sup-competition-course-en-ligne-championnat-france-cdf-2026-800x800-1.jpg" alt="">
-<img src="/images/activites/kayak-competition-course-en-ligne/acbb-canoe-kayak-sup-competition-course-en-ligne-800x800-1-1.jpg" alt="">
-<img src="/images/activites/kayak-competition-course-en-ligne/acbb-canoe-kayak-sup-competition-championnat-france-500x500-1.jpg" alt="">
-<img src="/images/activites/kayak-competition-course-en-ligne/acbb-canoe-kayak-sup-competition-course-en-ligne-chaampionnat-france-medaille-800x800-1.jpg" alt="">
-<img src="/images/activites/kayak-competition-course-en-ligne/acbb-canoe-kayak-sup-competition-course-en-ligne-championnat-france-Mantes-800x800-1.jpg" alt="">
+<img src="{static}/images/activites/kayak-competition-course-en-ligne/acbb-canoe-kayak-sup-competition-course-en-ligne-championnat-france-cdf-2026-800x800-1.jpg" alt="">
+<img src="{static}/images/activites/kayak-competition-course-en-ligne/acbb-canoe-kayak-sup-competition-course-en-ligne-800x800-1-1.jpg" alt="">
+<img src="{static}/images/activites/kayak-competition-course-en-ligne/acbb-canoe-kayak-sup-competition-championnat-france-500x500-1.jpg" alt="">
+<img src="{static}/images/activites/kayak-competition-course-en-ligne/acbb-canoe-kayak-sup-competition-course-en-ligne-chaampionnat-france-medaille-800x800-1.jpg" alt="">
+<img src="{static}/images/activites/kayak-competition-course-en-ligne/acbb-canoe-kayak-sup-competition-course-en-ligne-championnat-france-Mantes-800x800-1.jpg" alt="">
 </div>
 </section>
 
@@ -46,8 +46,8 @@ Summary: La course en ligne à l'ACBB : la discipline historique du club, entre 
 
 <section class="wide">
 <div class="simple_gallery">
-<img src="/images/activites/kayak-competition-course-en-ligne/acbb-canoe-kayak-sup-competition-course-en-ligne-championnat-france-team-acbb-equipe-800x800-1.jpg" alt="">
-<img src="/images/activites/kayak-competition-course-en-ligne/acbb-canoe-kayak-sup-competition-course-en-ligne-championnat-france-esprit-equipe-800x800-1.jpg" alt="">
+<img src="{static}/images/activites/kayak-competition-course-en-ligne/acbb-canoe-kayak-sup-competition-course-en-ligne-championnat-france-team-acbb-equipe-800x800-1.jpg" alt="">
+<img src="{static}/images/activites/kayak-competition-course-en-ligne/acbb-canoe-kayak-sup-competition-course-en-ligne-championnat-france-esprit-equipe-800x800-1.jpg" alt="">
 </div>
 </section>
 
@@ -83,7 +83,7 @@ Summary: La course en ligne à l'ACBB : la discipline historique du club, entre 
 <p>À l'ACBB, on ne vient pas seulement pagayer. On vient partager, rire, progresser ensemble.<br>
 Ici, chaque séance est un moment de convivialité, d'échange et de bonne humeur.<br>
 <strong>Un club, une ambiance, une 2e famille</strong></p>
-<a href="/pages/pourquoi-choisir-acbb.html" class="qbutton center default">POURQUOI NOUS CHOISIR ?</a>
+<a href="{filename}/pages/nous-choisir.md" class="qbutton center default">POURQUOI NOUS CHOISIR ?</a>
 </section>
 
 <section markdown="1">

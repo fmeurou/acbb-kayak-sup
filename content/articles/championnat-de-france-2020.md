@@ -92,11 +92,11 @@ K1 H PARACANOE : **Gautier DELANNOY 3è**
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/championnat-de-france-2020/119470028_957251564751330_6091276536311805584_n.jpg" alt="">
-<img src="/images/blog/championnat-de-france-2020/119472288_957251668084653_8200799961581525062_n.jpg" alt="">
-<img src="/images/blog/championnat-de-france-2020/119484780_957251931417960_2007285049988860144_n.jpg" alt="">
-<img src="/images/blog/championnat-de-france-2020/119489466_957251601417993_5129661357289803462_n.jpg" alt="">
-<img src="/images/blog/championnat-de-france-2020/119513646_957251721417981_1843538263821939699_n.jpg" alt="">
-<img src="/images/blog/championnat-de-france-2020/119519859_957252228084597_2322594805832916334_n.jpg" alt="">
+<img src="{static}/images/blog/championnat-de-france-2020/119470028_957251564751330_6091276536311805584_n.jpg" alt="">
+<img src="{static}/images/blog/championnat-de-france-2020/119472288_957251668084653_8200799961581525062_n.jpg" alt="">
+<img src="{static}/images/blog/championnat-de-france-2020/119484780_957251931417960_2007285049988860144_n.jpg" alt="">
+<img src="{static}/images/blog/championnat-de-france-2020/119489466_957251601417993_5129661357289803462_n.jpg" alt="">
+<img src="{static}/images/blog/championnat-de-france-2020/119513646_957251721417981_1843538263821939699_n.jpg" alt="">
+<img src="{static}/images/blog/championnat-de-france-2020/119519859_957252228084597_2322594805832916334_n.jpg" alt="">
 </div>
 </section>

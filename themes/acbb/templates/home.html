@@ -9,7 +9,7 @@
 {% block title %}{{ SITENAME }}{% if SITESUBTITLE %} &mdash; {{ SITESUBTITLE }}{% endif %}{% endblock %}
 
 {% block hero %}
-<div class="hero" style="height:480px;background-image:url('{{ page.image if page.image else SITEURL + '/theme/images/hero-default-bg.jpg' }}');"></div>
+<div class="hero" style="height:480px;background-image:url('{{ (SITEURL + page.image) if page.image else (SITEURL + '/theme/images/hero-default-bg.jpg') }}');"></div>
 {% endblock %}
 
 {% block content %}

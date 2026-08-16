@@ -20,8 +20,8 @@ Nous contournons le Mont par la droite pour découvrir un spectacle magique : le
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/tour-du-mont-saint-michel-2/01-mont-st-michel.jpg" alt="">
-<img src="/images/blog/tour-du-mont-saint-michel-2/02-mont-st-michel.jpg" alt="">
+<img src="{static}/images/blog/tour-du-mont-saint-michel-2/01-mont-st-michel.jpg" alt="">
+<img src="{static}/images/blog/tour-du-mont-saint-michel-2/02-mont-st-michel.jpg" alt="">
 </div>
 </section>
 

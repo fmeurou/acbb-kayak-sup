@@ -8,7 +8,7 @@ Summary: Mercredi 20h45 – 22h30
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/mercredi-cest-piscine/agenda-piscine.jpg" alt="">
+<img src="{static}/images/blog/mercredi-cest-piscine/agenda-piscine.jpg" alt="">
 </div>
 </section>
 

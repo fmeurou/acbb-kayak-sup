@@ -14,10 +14,10 @@ Une dizaine de kayakistes a pu découvrir le lac de Côme la première semaine d
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/lac-de-come-kayak-soleil-et-decouvertes/01-COME.jpg" alt="">
-<img src="/images/blog/lac-de-come-kayak-soleil-et-decouvertes/02-COME.jpg" alt="">
-<img src="/images/blog/lac-de-come-kayak-soleil-et-decouvertes/03-COME.jpg" alt="">
-<img src="/images/blog/lac-de-come-kayak-soleil-et-decouvertes/04-COME.jpg" alt="">
+<img src="{static}/images/blog/lac-de-come-kayak-soleil-et-decouvertes/01-COME.jpg" alt="">
+<img src="{static}/images/blog/lac-de-come-kayak-soleil-et-decouvertes/02-COME.jpg" alt="">
+<img src="{static}/images/blog/lac-de-come-kayak-soleil-et-decouvertes/03-COME.jpg" alt="">
+<img src="{static}/images/blog/lac-de-come-kayak-soleil-et-decouvertes/04-COME.jpg" alt="">
 </div>
 </section>
 

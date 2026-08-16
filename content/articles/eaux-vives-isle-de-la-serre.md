@@ -14,14 +14,14 @@ Lors du long WE de l’ascension, une quinzaine d’adhérents de l’acbb, jeun
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/eaux-vives-isle-de-la-serre/0-isleserre.jpg" alt="">
-<img src="/images/blog/eaux-vives-isle-de-la-serre/07-isleserre.jpg" alt="">
-<img src="/images/blog/eaux-vives-isle-de-la-serre/01-isleserre.jpg" alt="">
-<img src="/images/blog/eaux-vives-isle-de-la-serre/06-isleserre.jpg" alt="">
-<img src="/images/blog/eaux-vives-isle-de-la-serre/02-isleserre.jpg" alt="">
-<img src="/images/blog/eaux-vives-isle-de-la-serre/03-isleserre.jpg" alt="">
-<img src="/images/blog/eaux-vives-isle-de-la-serre/04-isleserre.jpg" alt="">
-<img src="/images/blog/eaux-vives-isle-de-la-serre/05-isleserre.jpg" alt="">
+<img src="{static}/images/blog/eaux-vives-isle-de-la-serre/0-isleserre.jpg" alt="">
+<img src="{static}/images/blog/eaux-vives-isle-de-la-serre/07-isleserre.jpg" alt="">
+<img src="{static}/images/blog/eaux-vives-isle-de-la-serre/01-isleserre.jpg" alt="">
+<img src="{static}/images/blog/eaux-vives-isle-de-la-serre/06-isleserre.jpg" alt="">
+<img src="{static}/images/blog/eaux-vives-isle-de-la-serre/02-isleserre.jpg" alt="">
+<img src="{static}/images/blog/eaux-vives-isle-de-la-serre/03-isleserre.jpg" alt="">
+<img src="{static}/images/blog/eaux-vives-isle-de-la-serre/04-isleserre.jpg" alt="">
+<img src="{static}/images/blog/eaux-vives-isle-de-la-serre/05-isleserre.jpg" alt="">
 </div>
 </section>
 

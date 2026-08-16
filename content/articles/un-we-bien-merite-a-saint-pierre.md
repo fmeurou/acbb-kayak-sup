@@ -74,21 +74,21 @@ Un grand merci à tous pour la bonne humeur pendant ces trois jours, à Laurence
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/un-we-bien-merite-a-saint-pierre/0-St-pierre-2021-1024x768.jpg" alt="">
-<img src="/images/blog/un-we-bien-merite-a-saint-pierre/2-St-pierre-2021-1024x768.jpg" alt="">
-<img src="/images/blog/un-we-bien-merite-a-saint-pierre/3-St-pierre-2021-1024x768.jpg" alt="">
-<img src="/images/blog/un-we-bien-merite-a-saint-pierre/4bis-St-pierre-2021-1024x768.jpg" alt="">
-<img src="/images/blog/un-we-bien-merite-a-saint-pierre/4-St-pierre-2021-1024x768.jpg" alt="">
-<img src="/images/blog/un-we-bien-merite-a-saint-pierre/5-St-pierre-2021-1024x768.jpg" alt="">
-<img src="/images/blog/un-we-bien-merite-a-saint-pierre/6-St-pierre-2021-1024x768.jpg" alt="">
-<img src="/images/blog/un-we-bien-merite-a-saint-pierre/7-St-pierre-2021-1024x768.jpg" alt="">
-<img src="/images/blog/un-we-bien-merite-a-saint-pierre/8-St-pierre-2021-1024x768.jpg" alt="">
-<img src="/images/blog/un-we-bien-merite-a-saint-pierre/10-St-pierre-2021-1024x768.jpg" alt="">
-<img src="/images/blog/un-we-bien-merite-a-saint-pierre/12-St-pierre-2021-1024x768.jpg" alt="">
-<img src="/images/blog/un-we-bien-merite-a-saint-pierre/14-St-pierre-2021-1024x768.jpg" alt="">
-<img src="/images/blog/un-we-bien-merite-a-saint-pierre/15-St-pierre-2021-1024x768.jpg" alt="">
-<img src="/images/blog/un-we-bien-merite-a-saint-pierre/17-St-pierre-2021-1024x768.jpg" alt="">
-<img src="/images/blog/un-we-bien-merite-a-saint-pierre/16-St-pierre-2021-1024x768.jpg" alt="">
-<img src="/images/blog/un-we-bien-merite-a-saint-pierre/13-St-pierre-2021-1-1024x768.jpg" alt="">
+<img src="{static}/images/blog/un-we-bien-merite-a-saint-pierre/0-St-pierre-2021-1024x768.jpg" alt="">
+<img src="{static}/images/blog/un-we-bien-merite-a-saint-pierre/2-St-pierre-2021-1024x768.jpg" alt="">
+<img src="{static}/images/blog/un-we-bien-merite-a-saint-pierre/3-St-pierre-2021-1024x768.jpg" alt="">
+<img src="{static}/images/blog/un-we-bien-merite-a-saint-pierre/4bis-St-pierre-2021-1024x768.jpg" alt="">
+<img src="{static}/images/blog/un-we-bien-merite-a-saint-pierre/4-St-pierre-2021-1024x768.jpg" alt="">
+<img src="{static}/images/blog/un-we-bien-merite-a-saint-pierre/5-St-pierre-2021-1024x768.jpg" alt="">
+<img src="{static}/images/blog/un-we-bien-merite-a-saint-pierre/6-St-pierre-2021-1024x768.jpg" alt="">
+<img src="{static}/images/blog/un-we-bien-merite-a-saint-pierre/7-St-pierre-2021-1024x768.jpg" alt="">
+<img src="{static}/images/blog/un-we-bien-merite-a-saint-pierre/8-St-pierre-2021-1024x768.jpg" alt="">
+<img src="{static}/images/blog/un-we-bien-merite-a-saint-pierre/10-St-pierre-2021-1024x768.jpg" alt="">
+<img src="{static}/images/blog/un-we-bien-merite-a-saint-pierre/12-St-pierre-2021-1024x768.jpg" alt="">
+<img src="{static}/images/blog/un-we-bien-merite-a-saint-pierre/14-St-pierre-2021-1024x768.jpg" alt="">
+<img src="{static}/images/blog/un-we-bien-merite-a-saint-pierre/15-St-pierre-2021-1024x768.jpg" alt="">
+<img src="{static}/images/blog/un-we-bien-merite-a-saint-pierre/17-St-pierre-2021-1024x768.jpg" alt="">
+<img src="{static}/images/blog/un-we-bien-merite-a-saint-pierre/16-St-pierre-2021-1024x768.jpg" alt="">
+<img src="{static}/images/blog/un-we-bien-merite-a-saint-pierre/13-St-pierre-2021-1-1024x768.jpg" alt="">
 </div>
 </section>

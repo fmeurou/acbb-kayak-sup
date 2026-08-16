@@ -16,9 +16,9 @@ Tout ceci dans la joie, la bonne humeur et encadré par des multiples Champions 
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/waveski-surf-a-la-mer/0-Sables-2021-1024x768.jpg" alt="">
-<img src="/images/blog/waveski-surf-a-la-mer/1-Sables-2021-1024x768.jpg" alt="">
-<img src="/images/blog/waveski-surf-a-la-mer/2-Sables-2021-1024x768.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-a-la-mer/0-Sables-2021-1024x768.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-a-la-mer/1-Sables-2021-1024x768.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-a-la-mer/2-Sables-2021-1024x768.jpg" alt="">
 </div>
 </section>
 
@@ -40,12 +40,12 @@ Nous on a tout aimé. De la première baignade entourée de méduses (mais pas c
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/waveski-surf-a-la-mer/3-Sables-2021-1024x768.jpg" alt="">
-<img src="/images/blog/waveski-surf-a-la-mer/4-Sables-2021-1024x768.jpg" alt="">
-<img src="/images/blog/waveski-surf-a-la-mer/5-Sables-2021-1024x768.jpg" alt="">
-<img src="/images/blog/waveski-surf-a-la-mer/6-Sables-2021-1024x768.jpg" alt="">
-<img src="/images/blog/waveski-surf-a-la-mer/7-Sables-2021-1024x768.jpg" alt="">
-<img src="/images/blog/waveski-surf-a-la-mer/01-Sables-2021-1024x768.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-a-la-mer/3-Sables-2021-1024x768.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-a-la-mer/4-Sables-2021-1024x768.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-a-la-mer/5-Sables-2021-1024x768.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-a-la-mer/6-Sables-2021-1024x768.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-a-la-mer/7-Sables-2021-1024x768.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-a-la-mer/01-Sables-2021-1024x768.jpg" alt="">
 </div>
 </section>
 
@@ -65,11 +65,11 @@ Encore merci pour l’organisation, le week end était vraiment réussi!!
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/waveski-surf-a-la-mer/9-Sables-2021-1024x768.jpg" alt="">
-<img src="/images/blog/waveski-surf-a-la-mer/10-Sables-2021-1024x768.jpg" alt="">
-<img src="/images/blog/waveski-surf-a-la-mer/11-Sables-2021-1024x768.jpg" alt="">
-<img src="/images/blog/waveski-surf-a-la-mer/12-Sables-2021-1024x768.jpg" alt="">
-<img src="/images/blog/waveski-surf-a-la-mer/8-Sables-2021-1024x768.jpg" alt="">
-<img src="/images/blog/waveski-surf-a-la-mer/00-Sables-2021-1024x768.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-a-la-mer/9-Sables-2021-1024x768.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-a-la-mer/10-Sables-2021-1024x768.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-a-la-mer/11-Sables-2021-1024x768.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-a-la-mer/12-Sables-2021-1024x768.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-a-la-mer/8-Sables-2021-1024x768.jpg" alt="">
+<img src="{static}/images/blog/waveski-surf-a-la-mer/00-Sables-2021-1024x768.jpg" alt="">
 </div>
 </section>

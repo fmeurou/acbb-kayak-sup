@@ -17,11 +17,11 @@ Cette discipline est un excellent moyen de progresser pour ceux qui affectionnen
 
 <section class="wide">
 <div class="simple_gallery">
-<img src="/images/activites/kayak-polo/acbb-kayak-polo-500x500-2.jpg" alt="">
-<img src="/images/activites/kayak-polo/kayak-polo-500x500-0.jpg" alt="">
-<img src="/images/activites/kayak-polo/acbb-kayak-polo-800x800-5.jpg" alt="">
-<img src="/images/activites/kayak-polo/acbb-kayak-polo-500x500-4.jpg" alt="">
-<img src="/images/activites/kayak-polo/acbb-kayak-polo-800x800-1.jpg" alt="">
+<img src="{static}/images/activites/kayak-polo/acbb-kayak-polo-500x500-2.jpg" alt="">
+<img src="{static}/images/activites/kayak-polo/kayak-polo-500x500-0.jpg" alt="">
+<img src="{static}/images/activites/kayak-polo/acbb-kayak-polo-800x800-5.jpg" alt="">
+<img src="{static}/images/activites/kayak-polo/acbb-kayak-polo-500x500-4.jpg" alt="">
+<img src="{static}/images/activites/kayak-polo/acbb-kayak-polo-800x800-1.jpg" alt="">
 </div>
 </section>
 
@@ -53,8 +53,8 @@ Cette discipline est un excellent moyen de progresser pour ceux qui affectionnen
 
 <section class="wide">
 <div class="simple_gallery">
-<img src="/images/activites/kayak-polo/acbb-kayak-polo-800x800-3.jpg" alt="">
-<img src="/images/activites/kayak-polo/acbb-kayak-polo-800x800-2.jpg" alt="">
+<img src="{static}/images/activites/kayak-polo/acbb-kayak-polo-800x800-3.jpg" alt="">
+<img src="{static}/images/activites/kayak-polo/acbb-kayak-polo-800x800-2.jpg" alt="">
 </div>
 </section>
 
@@ -71,7 +71,7 @@ Cette discipline est un excellent moyen de progresser pour ceux qui affectionnen
 
 <section class="wide">
 <div class="simple_gallery">
-<img src="/images/activites/kayak-polo/logoacbb-kayak-polo-ragondins.jpg" alt="">
+<img src="{static}/images/activites/kayak-polo/logoacbb-kayak-polo-ragondins.jpg" alt="">
 </div>
 </section>
 
@@ -80,7 +80,7 @@ Cette discipline est un excellent moyen de progresser pour ceux qui affectionnen
 <p>À l'ACBB, on ne vient pas seulement pagayer. On vient partager, rire, progresser ensemble.<br>
 Ici, chaque séance est un moment de convivialité, d'échange et de bonne humeur.<br>
 <strong>Un club, une ambiance, une 2e famille</strong></p>
-<a href="/pages/pourquoi-choisir-acbb.html" class="qbutton center default">POURQUOI NOUS CHOISIR ?</a>
+<a href="{filename}/pages/nous-choisir.md" class="qbutton center default">POURQUOI NOUS CHOISIR ?</a>
 </section>
 
 <section markdown="1">

@@ -16,11 +16,11 @@ Summary: Le Stand Up Paddle à l'ACBB : une pratique accessible, fun et complèt
 
 <section class="wide">
 <div class="simple_gallery">
-<img src="/images/activites/stand-up-paddle/acbb-sup-competition-500x500-3.jpg" alt="">
-<img src="/images/activites/stand-up-paddle/acbb-sup-loisir-500x500-4.jpg" alt="">
-<img src="/images/activites/stand-up-paddle/acbb-sup-jeu-sur-l-eau-500x500-3.jpg" alt="">
-<img src="/images/activites/stand-up-paddle/acbb-sup-loisir-500x500-2.jpg" alt="">
-<img src="/images/activites/stand-up-paddle/Stand-up-paddle-loisir-competition-800x800-1.jpg" alt="">
+<img src="{static}/images/activites/stand-up-paddle/acbb-sup-competition-500x500-3.jpg" alt="">
+<img src="{static}/images/activites/stand-up-paddle/acbb-sup-loisir-500x500-4.jpg" alt="">
+<img src="{static}/images/activites/stand-up-paddle/acbb-sup-jeu-sur-l-eau-500x500-3.jpg" alt="">
+<img src="{static}/images/activites/stand-up-paddle/acbb-sup-loisir-500x500-2.jpg" alt="">
+<img src="{static}/images/activites/stand-up-paddle/Stand-up-paddle-loisir-competition-800x800-1.jpg" alt="">
 </div>
 </section>
 
@@ -59,8 +59,8 @@ Aucun niveau requis
 
 <section class="wide">
 <div class="simple_gallery">
-<img src="/images/activites/stand-up-paddle/acbb-sup-entrainement-800x800-1.jpg" alt="">
-<img src="/images/activites/stand-up-paddle/acbb-sup-base-nautique-sevres-800x800-2.jpg" alt="">
+<img src="{static}/images/activites/stand-up-paddle/acbb-sup-entrainement-800x800-1.jpg" alt="">
+<img src="{static}/images/activites/stand-up-paddle/acbb-sup-base-nautique-sevres-800x800-2.jpg" alt="">
 </div>
 </section>
 
@@ -94,7 +94,7 @@ Aucun niveau requis
 <p>À l'ACBB, on ne vient pas seulement pagayer. On vient partager, rire, progresser ensemble.<br>
 Ici, chaque séance est un moment de convivialité, d'échange et de bonne humeur.<br>
 <strong>Un club, une ambiance, une 2e famille</strong></p>
-<a href="/pages/pourquoi-choisir-acbb.html" class="qbutton center default">POURQUOI NOUS CHOISIR ?</a>
+<a href="{filename}/pages/nous-choisir.md" class="qbutton center default">POURQUOI NOUS CHOISIR ?</a>
 </section>
 
 <section markdown="1">

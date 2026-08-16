@@ -14,9 +14,9 @@ La première sortie débutants Eaux vives de l’année, 12 jeunes et adultes é
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/sortie-debutants-eaux-vives/corbeil11.jpg" alt="">
-<img src="/images/blog/sortie-debutants-eaux-vives/corbeil8.jpg" alt="">
-<img src="/images/blog/sortie-debutants-eaux-vives/corbeil4.jpg" alt="">
+<img src="{static}/images/blog/sortie-debutants-eaux-vives/corbeil11.jpg" alt="">
+<img src="{static}/images/blog/sortie-debutants-eaux-vives/corbeil8.jpg" alt="">
+<img src="{static}/images/blog/sortie-debutants-eaux-vives/corbeil4.jpg" alt="">
 </div>
 </section>
 
@@ -28,9 +28,9 @@ Navigation dans un environnement magique, entre l’eau et la neige qui bordait 
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/sortie-debutants-eaux-vives/corbeil1.jpg" alt="">
-<img src="/images/blog/sortie-debutants-eaux-vives/corbeil10.jpg" alt="">
-<img src="/images/blog/sortie-debutants-eaux-vives/corbeil3.jpg" alt="">
+<img src="{static}/images/blog/sortie-debutants-eaux-vives/corbeil1.jpg" alt="">
+<img src="{static}/images/blog/sortie-debutants-eaux-vives/corbeil10.jpg" alt="">
+<img src="{static}/images/blog/sortie-debutants-eaux-vives/corbeil3.jpg" alt="">
 </div>
 </section>
 
@@ -52,8 +52,8 @@ wp:paragraph Merci à tous pour l’ambiance et félicitations à tous pour avoi
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/sortie-debutants-eaux-vives/corbeil5.jpg" alt="">
-<img src="/images/blog/sortie-debutants-eaux-vives/corbeil7.jpg" alt="">
-<img src="/images/blog/sortie-debutants-eaux-vives/corbeil6.jpg" alt="">
+<img src="{static}/images/blog/sortie-debutants-eaux-vives/corbeil5.jpg" alt="">
+<img src="{static}/images/blog/sortie-debutants-eaux-vives/corbeil7.jpg" alt="">
+<img src="{static}/images/blog/sortie-debutants-eaux-vives/corbeil6.jpg" alt="">
 </div>
 </section>

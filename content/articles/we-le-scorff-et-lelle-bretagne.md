@@ -20,13 +20,13 @@ Soirée au gite avec une crêp’ party… et vive la Bretagne !
 
 <section class="wide">
 <div class="article_carousel">
-<img src="/images/blog/we-le-scorff-et-lelle-bretagne/scorff1-1024x768.jpg" alt="">
-<img src="/images/blog/we-le-scorff-et-lelle-bretagne/scorff2-1024x768.jpg" alt="">
-<img src="/images/blog/we-le-scorff-et-lelle-bretagne/scorff6-1024x768.jpg" alt="">
-<img src="/images/blog/we-le-scorff-et-lelle-bretagne/scorff7-1024x768.jpg" alt="">
-<img src="/images/blog/we-le-scorff-et-lelle-bretagne/scorff8-1024x768.jpg" alt="">
-<img src="/images/blog/we-le-scorff-et-lelle-bretagne/scorff3-1024x768.jpg" alt="">
-<img src="/images/blog/we-le-scorff-et-lelle-bretagne/scorff4-1024x768.jpg" alt="">
-<img src="/images/blog/we-le-scorff-et-lelle-bretagne/scorff9-1024x768.jpg" alt="">
+<img src="{static}/images/blog/we-le-scorff-et-lelle-bretagne/scorff1-1024x768.jpg" alt="">
+<img src="{static}/images/blog/we-le-scorff-et-lelle-bretagne/scorff2-1024x768.jpg" alt="">
+<img src="{static}/images/blog/we-le-scorff-et-lelle-bretagne/scorff6-1024x768.jpg" alt="">
+<img src="{static}/images/blog/we-le-scorff-et-lelle-bretagne/scorff7-1024x768.jpg" alt="">
+<img src="{static}/images/blog/we-le-scorff-et-lelle-bretagne/scorff8-1024x768.jpg" alt="">
+<img src="{static}/images/blog/we-le-scorff-et-lelle-bretagne/scorff3-1024x768.jpg" alt="">
+<img src="{static}/images/blog/we-le-scorff-et-lelle-bretagne/scorff4-1024x768.jpg" alt="">
+<img src="{static}/images/blog/we-le-scorff-et-lelle-bretagne/scorff9-1024x768.jpg" alt="">
 </div>
 </section>

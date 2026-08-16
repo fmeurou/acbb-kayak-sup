@@ -32,25 +32,62 @@ DEFAULT_PAGINATION = 10
 # listing. Move the article index out of the way to /blog/ instead.
 INDEX_SAVE_AS = "blog/index.html"
 INDEX_URL = "blog/"
-ARTICLE_URL = "blog/{slug}.html"
-ARTICLE_SAVE_AS = "blog/{slug}.html"
 
-# Year/month archive pages for the blog sidebar's "Archives" links
-# (rendered by themes/acbb/templates/period_archives.html).
-YEAR_ARCHIVE_SAVE_AS = "blog/{date:%Y}/index.html"
-MONTH_ARCHIVE_SAVE_AS = "blog/{date:%Y}/{date:%m}/index.html"
+# Articles live in two independent content streams that share the same
+# Pelican `Article` machinery but must not mix: content/blog/ (Category:
+# Sorties, the pre-existing "Blog" section) and content/actualites/
+# (Category: Actualités, the news section). `{path}` resolves to each
+# article's source subdirectory, so the URL prefix always matches the
+# directory it was authored in without hardcoding either one here.
+# `path` metadata defaults to the full relative *file* path (dir + name),
+# not just the directory - PATH_METADATA overrides it to the top-level
+# content subdirectory only (e.g. "blog", "actualites"). Pelican applies
+# PATH_METADATA to every file it reads, including STATIC_PATHS content
+# (content/images/, content/files/) - the pattern is scoped to just the
+# two article directories so it doesn't also rewrite `path` for static
+# assets (which would collapse them all to output/images, output/files).
+PATH_METADATA = r"(?P<path>blog|actualites)/.*"
+ARTICLE_URL = "{path}/{slug}.html"
+ARTICLE_SAVE_AS = "{path}/{slug}.html"
+
+# Pelican's own YEAR_ARCHIVE_SAVE_AS/MONTH_ARCHIVE_SAVE_AS group *all*
+# articles by date regardless of category, which would mix Sorties and
+# Actualités into one archive tree. Deliberately left unset - the
+# category_period_archives plugin (see plugins/) generates a separate,
+# category-scoped year/month archive tree for each entry below instead.
+CATEGORY_ARCHIVES = {
+    "Sorties": "blog",
+    "Actualités": "actualites",
+}
+PLUGIN_PATHS = ["plugins"]
+PLUGINS = ["category_period_archives"]
+
+# The Actualités index (like the blog's, listing its own articles plus
+# a "this month" / archive-tree sidebar) is a template-driven listing
+# page, not a Pelican Page, same mechanism as the built-in "index".
+DIRECT_TEMPLATES = ["index", "tags", "categories", "authors", "archives", "actualites"]
+ACTUALITES_SAVE_AS = "actualites/index.html"
+ACTUALITES_URL = "actualites/"
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
-# --- Blog sidebar helpers (index.html: "Articles récents" / "Archives") ---
-# A static site has no live "now" - RECENT_ARTICLES_SINCE is fixed at build
-# time, so the "last 6 months" window reflects whenever the site was last
-# generated, same as everything else here (e.g. the Instagram grid).
+# --- Blog/Actualités sidebar helpers ---
+# A static site has no live "now" - these are fixed at build time, so
+# "recent"/"this month" reflect whenever the site was last generated,
+# same as everything else here (e.g. the Instagram grid).
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
-RECENT_ARTICLES_SINCE = datetime.now(ZoneInfo(TIMEZONE)) - timedelta(days=182)
+BUILD_NOW = datetime.now(ZoneInfo(TIMEZONE))
+RECENT_ARTICLES_SINCE = BUILD_NOW - timedelta(days=182)
+
+
+def by_category(articles, category_name):
+    """Filter a (multi-category) article list down to one category - used
+    by the Actualités templates, which otherwise share the same global
+    `articles`/`dates` context as the Sorties blog."""
+    return [a for a in articles if a.category == category_name]
 
 FR_MONTHS = [
     "", "janvier", "février", "mars", "avril", "mai", "juin",
@@ -82,5 +119,12 @@ def archive_groups(articles):
     return groups
 
 
-JINJA_GLOBALS = {"recent_articles_since": RECENT_ARTICLES_SINCE}
-JINJA_FILTERS = {"archive_groups": archive_groups, "month_name": month_name}
+JINJA_GLOBALS = {
+    "recent_articles_since": RECENT_ARTICLES_SINCE,
+    "build_now": BUILD_NOW,
+}
+JINJA_FILTERS = {
+    "archive_groups": archive_groups,
+    "month_name": month_name,
+    "by_category": by_category,
+}

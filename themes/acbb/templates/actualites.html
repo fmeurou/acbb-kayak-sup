@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}Actualités - {{ SITENAME }}{% endblock %}
+
+{% block content %}
+<header class="page-header">
+	<h1>Actualités</h1>
+</header>
+
+{% set news_dates = dates|by_category("Actualités") %}
+
+<div class="blog-layout">
+	<div class="blog-main">
+		{% set article_list = news_dates %}
+		{% include "article_list.html" with context %}
+	</div>
+
+	{% if news_dates %}
+	<aside class="blog-sidebar">
+		{% set this_month = news_dates|selectattr("date.year", "equalto", build_now.year)
+			|selectattr("date.month", "equalto", build_now.month)|list %}
+		{% if this_month %}
+		<section>
+			<h2>Actus du mois</h2>
+			<ul>
+				{% for article in this_month %}
+				<li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></li>
+				{% endfor %}
+			</ul>
+		</section>
+		{% endif %}
+
+		<section>
+			<h2>Archives</h2>
+			{% for group in news_dates|archive_groups %}
+			<h3><a href="{{ SITEURL }}/actualites/{{ group.year }}/">{{ group.year }}</a></h3>
+			<ul>
+				{% for m in group.months %}
+				<li><a href="{{ SITEURL }}/actualites/{{ group.year }}/{{ "%02d"|format(m.num) }}/">{{ m.name|capitalize }} ({{ m.count }})</a></li>
+				{% endfor %}
+			</ul>
+			{% endfor %}
+		</section>
+	</aside>
+	{% endif %}
+</div>
+{% endblock %}

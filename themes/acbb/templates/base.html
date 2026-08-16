@@ -69,6 +69,9 @@
 				</li>
 				{% endfor %}
 				<li><a href="https://acbb.assoconnect.com/page/4031658-agenda-des-evenements" target="_blank" rel="noopener">Agenda</a></li>
+				{% if articles|by_category("Actualités") %}
+				<li><a href="{{ SITEURL }}/actualites/">Actualités</a></li>
+				{% endif %}
 				{% if articles %}
 				<li><a href="{{ SITEURL }}/blog/">Blog</a></li>
 				{% endif %}
@@ -102,6 +105,9 @@
 				<li><a href="{{ SITEURL }}/{{ p.url }}">{{ p.menutitle or p.title }}</a></li>
 				{% endfor %}
 				<li><a href="https://acbb.assoconnect.com/page/4031658-agenda-des-evenements" target="_blank" rel="noopener">Agenda</a></li>
+				{% if articles|by_category("Actualités") %}
+				<li><a href="{{ SITEURL }}/actualites/">Actualités</a></li>
+				{% endif %}
 				{% if articles %}
 				<li><a href="{{ SITEURL }}/blog/">Blog</a></li>
 				{% endif %}
